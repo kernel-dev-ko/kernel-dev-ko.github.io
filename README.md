@@ -11,8 +11,8 @@
 ## Request For Paper
 이 모임은 리눅스 커널에 관한 기술적인 내용부터 커널과 그와 관련된 오픈소스 그 언저리에 있는 어떠한 얘기도 부담없이 자유롭게
 나누고자 합니다. 발표는 40분 가량의 메인 토픽과 15분 가량의 lightning talk의 형태로 진행됩니다.
-모임에서 발표를 원하시는 분들은 kernel-dev-ko@gmail.com 으로 메일을 보내주세요.
+모임에서 발표를 원하시는 분들은 [kernel-dev-ko@gmail.com](mailto:kernel-dev-ko@gmail.com)으로 메일을 보내주세요.
 
 ## 이전 모임 정보
-* 1회 모임: https://onoffmix.com/event/83625
-* 2회 모임: https://onoffmix.com/event/99896
+* [1회 모임](https://onoffmix.com/event/83625)
+* [2회 모임](https://onoffmix.com/event/99896)
