@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# 한국 커널 개발자 모임
 
-You can use the [editor on GitHub](https://github.com/kernel-dev-ko/kernel-dev-ko/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+제 3회 한국 리눅스 커널 개발자 모임을 준비 중입니다.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* 날짜: 2018. 4. 19 (목)
+* 시간: 오후 7시 ~ 9시
+* 장소: 선릉역 D-Camp 6층 다목적 홀
 
-### Markdown
+(주차는 지원되지 않습니다)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Request For Paper
+이 모임은 리눅스 커널에 관한 기술적인 내용부터 커널과 그와 관련된 오픈소스 그 언저리에 있는 어떠한 얘기도 부담없이 자유롭게
+나누고자 합니다. 발표는 40분 가량의 메인 토픽과 15분 가량의 lightning talk의 형태로 진행됩니다.
+모임에서 발표를 원하시는 분들은 kernel-dev-ko@gmail.com 으로 메일을 보내주세요.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kernel-dev-ko/kernel-dev-ko/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 이전 모임 정보
+* 1회 모임: https://onoffmix.com/event/83625
+* 2회 모임: https://onoffmix.com/event/99896
