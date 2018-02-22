@@ -16,7 +16,7 @@
 ## 참석 신청
 모임에 참석을 원하시는 분들은 아래의 링크를 통해 신청해 주시기 바랍니다.
 
-https://onoffmix.com/event/128774
+[onoffmix link](https://onoffmix.com/event/128774)
 
 ## 이전 모임 정보
 * [1회 모임](https://onoffmix.com/event/83625)
