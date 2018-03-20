@@ -9,15 +9,15 @@
 
 ## 발표자 소개
 
-### 박병철
-10년간 system S/W 엔지니어로 근무하고 있으며, 현재는 LG전자 오픈소스
-팀에서 scheduler 분야에 컨트리뷰션을 하고 있다. 현재 주요 관심사는
-scheduler 및 RCU 그리고 lockdep 등이다.
-
 ### 이현철
 8년간 system S/W 엔지니어로 근무하고 있으며, 현재는 LG전자 오픈소스
 팀에서 File system 분야에 컨트리뷰션을 하고 있다. 현재 주요 관심사는
 VFS, block layer, F2FS 등이다.
+
+### 박병철
+10년간 system S/W 엔지니어로 근무하고 있으며, 현재는 LG전자 오픈소스
+팀에서 scheduler 분야에 컨트리뷰션을 하고 있다. 현재 주요 관심사는
+scheduler 및 RCU 그리고 lockdep 등이다.
 
 ## 발표 자료
 (준비 중)
