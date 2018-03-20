@@ -3,8 +3,8 @@
 
 ## 발표내용
 
-KOSSLAB의 지원을 받아 프라하에 Open Source Summit + Embedded Linux Conference
-+ Kernel Summit 행사에 다녀온 경험과 느낀바를 간략히 발표합니다.
+KOSSLAB의 지원을 받아 프라하에 Open Source Summit + Embedded Linux Conference +
+Kernel Summit 행사에 다녀온 경험과 느낀바를 간략히 발표합니다.
 
 ## 발표자 소개
 
