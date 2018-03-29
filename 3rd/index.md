@@ -2,9 +2,11 @@
 
 * 날짜: 2018. 4. 19 (목)
 * 시간: 오후 7시 ~ 9시
-* 장소: 선릉역 D-Camp 6층 다목적홀
+* 장소: 선릉역 스페이스쉐어 대치센터 5층 펜타곤홀
 
 (주차는 지원되지 않습니다)
+
+![spaceshare daechi](http://daechi.spaceshare.kr/img/daechi_map.jpg)
 
 ## 일정
 
