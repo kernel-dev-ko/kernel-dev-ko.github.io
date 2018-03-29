@@ -6,7 +6,7 @@
 
 (주차는 지원되지 않습니다)
 
-![spaceshare daechi](http://daechi.spaceshare.kr/img/daechi_map.jpg)
+![spaceshare daechi](http://daechi.spaceshare.kr/img/daechi/daechi_map.jpg)
 
 ## 일정
 
