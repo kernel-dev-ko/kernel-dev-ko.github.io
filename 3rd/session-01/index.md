@@ -1,3 +1,8 @@
+---
+layout: default
+comments: true
+---
+
 # Kernel report
 제3회 한국 리눅스 커널 개발자 모임 발표: 정규 세션
 
