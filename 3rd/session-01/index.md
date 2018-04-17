@@ -25,4 +25,4 @@ VFS, block layer, F2FS 등이다.
 scheduler 및 RCU 그리고 lockdep 등이다.
 
 ## 발표 자료
-(준비 중)
+[kernel-report.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/3rd/session-01/kernel-report.pdf)

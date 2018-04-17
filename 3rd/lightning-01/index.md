@@ -22,5 +22,4 @@ comments: true
 * 리눅스 프로그래밍 교재 편찬
 
 ## 발표 자료
-(준비 중)
-
+[linux-kernel-study.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/3rd/lightning-01/linux-kernel-study.pdf)

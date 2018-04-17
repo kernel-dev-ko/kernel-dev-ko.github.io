@@ -22,5 +22,5 @@ RISC-V 아키텍쳐 명령어 특징과 장점에 대해서 말씀드리고
 * 부천대학교 지능로봇과 겸임교수 재직 중
 
 ## 발표 자료
-(준비 중)
+[RISCV-analysis.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/3rd/session-02/RISCV-analysis.pdf)
 

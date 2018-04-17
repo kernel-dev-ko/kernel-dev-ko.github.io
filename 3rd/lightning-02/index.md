@@ -18,5 +18,4 @@ KOSSLAB에서 풀타임, 파트타임 개발자로 활동했습니다.
 최근의 관심사는 커널의 메모리 관리, RCU, 그리고 BPF 등을 활용한 프로파일링입니다.
 
 ## 발표 자료
-(준비 중)
-
+[osse2017-attendance-log.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/3rd/lightning-02/osse2017-attendance-log.pdf)
