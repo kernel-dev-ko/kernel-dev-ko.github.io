@@ -21,6 +21,11 @@
 발표 신청이 마감되었습니다. 시간 관계 상 모든 분들께 기회를 드리지 못하였음을 죄송하게 생각합니다.
 다음 기회에 함께할 수 있기를 바라겠습니다.
 
+## 의견
+slack 페이지를 하나 만들었습니다. 모임에 대해 의견을 나누고 싶으신 분은 아래의 페이지를 통해 참여하실 수 있습니다.
+
+[https//join.slack.com](https://join.slack.com/t/kernel-dev-ko/shared_invite/enQtMzQ3NDczMDAxNjk3LWEyYzFmODU2NDQ3YzdiOGJlYjY1ZGVlNGNmZGNkOTU3NWI3ZDZkNzg1ZGUyYTQ1M2M2YWI1YTE1YmMyZjMxNjM)
+
 ## 참석 신청
 모임에 참석을 원하시는 분들은 아래의 링크를 통해 신청해 주시기 바랍니다.
 
