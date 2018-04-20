@@ -15,7 +15,7 @@
 | 7시~ |  main topic | [Lockdep(Lock Dependency) Mechanism](session-01/) | 박병철 |
 | 7시40분~ |  main topic | [SMB Network Filesystem](session-02/)| 전남재 |
 | 8시30분~ |  lightning talk | [리눅스 커널 커뮤니티 소개](lightning-01/) | 김남형 |
-| 8시45분~ |  lightning talk  | [Breif introduction to kernel selftest](lightning-02/) | 박성재 |
+| 8시45분~ |  lightning talk  | [Brief introduction to kernel selftest](lightning-02/) | 박성재 |
 | 9시~ | discussion | 자유 토론 | 김민찬 |
 
 ## 발표 신청
