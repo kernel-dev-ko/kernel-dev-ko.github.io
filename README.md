@@ -21,5 +21,5 @@
 
 ## 이전 모임 정보
 * [1회 모임](https://onoffmix.com/event/83625)
-* [2회 모임](https://onoffmix.com/event/99896)
+* [2회 모임](2nd/)
 * [3회 모임](3rd/)
