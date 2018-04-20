@@ -21,15 +21,16 @@
 발표 신청이 마감되었습니다. 시간 관계 상 모든 분들께 기회를 드리지 못하였음을 죄송하게 생각합니다.
 다음 기회에 함께할 수 있기를 바라겠습니다.
 
-## 의견
-slack 페이지를 하나 만들었습니다. 모임에 대해 의견을 나누고 싶으신 분은 아래의 페이지를 통해 참여하실 수 있습니다.
-
-[https//join.slack.com](https://join.slack.com/t/kernel-dev-ko/shared_invite/enQtMzQ3NDczMDAxNjk3LWEyYzFmODU2NDQ3YzdiOGJlYjY1ZGVlNGNmZGNkOTU3NWI3ZDZkNzg1ZGUyYTQ1M2M2YWI1YTE1YmMyZjMxNjM)
-
 ## 참석 신청
-모임에 참석을 원하시는 분들은 아래의 링크를 통해 신청해 주시기 바랍니다.
+모임이 종료되었습니다. 다음 모임 기회를 이용해 주세요~
 
 [onoffmix link](https://onoffmix.com/event/128774)
+
+## 모임 사진
+아래의 페이지를 통해 모임 때의 모습을 보실 수 있습니다. 공유하고 싶은 사진을 가지고 계신 분들은
+`#korea` `#kernel` `#developer` `#meetup` `#3rd` 태그를 통해 공유해 주시기 바랍니다.
+
+[https://www.instagram.com/kernel.dev.ko/](https://www.instagram.com/kernel.dev.ko/)
 
 ## 후원
 * 구글 코리아: 참석자에게 티셔츠 증정 (선착순이며 조기 마감될 수 있습니다)
