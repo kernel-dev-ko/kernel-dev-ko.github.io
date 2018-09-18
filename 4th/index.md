@@ -5,8 +5,10 @@
 대략 아래와 같은 일정으로 진행할 계획입니다.
 
 * 날짜: 2018. 11. 8 (목)
-* 시간: 오후 7시 경
-* 장소: 미정
+* 시간: 오후 7시 ~ 9시
+* 장소: KOSSLAB 대강의장 (아남타워 7층)
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.1779726297837!2d127.04265596559094!3d37.503720385480136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca40672196aaf%3A0x34143cae43184216!2z7JWE64Ko7YOA7JuM6rSA66asKOyjvCk!5e0!3m2!1sen!2skr!4v1537231045695" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 ## 발표 신청 (RFP)
 이 모임은 리눅스 커널에 관한 기술적인 내용부터,
@@ -17,6 +19,6 @@
 형태로 진행하고 있습니다. 가벼운 이야기라도 좋으니
 라이트닝 토크에 많이 참여해 주시면 고맙겠습니다.
 
-모임에서 발표를 원하시는 분들은 kernel.dev.ko@gmail.com으로
+모임에서 발표를 원하시는 분들은 [kernel.dev.ko@gmail.com](mailto:kernel.dev.ko@gmail.com)으로
 간단한 자기소개와 발표 주제 및 요약 정보를 메일을 보내주시기 바랍니다.
 
