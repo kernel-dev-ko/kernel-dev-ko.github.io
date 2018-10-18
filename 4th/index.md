@@ -27,4 +27,4 @@
 [onoffmix link](https://onoffmix.com/event/155146)
 
 ## 후원
-* (주)위웨이크: 발표자 선물 지원
+* 위웨이크주식회사: 발표자 선물 지원
