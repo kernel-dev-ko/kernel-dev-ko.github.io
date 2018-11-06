@@ -15,3 +15,6 @@ Memory) 을 지원하기 위한 리눅스 커널의 아키텍처를 소개한다
 ### 이현철
 8년간 system S/W 엔지니어로 근무하고 있으며, 현재는 LG전자에서 File system
 분야에 컨트리뷰션을 하고 있다. 주요 관심사는 VFS, block layer, F2FS 등이다.
+
+## 발표 자료
+[lightning-01.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/4th/lightning-01/lightning-01.pdf)
