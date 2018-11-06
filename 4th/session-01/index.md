@@ -20,4 +20,4 @@ comments: true
 [uftrace 프로젝트](https://github.com/namhyung/uftrace)를 오픈소스로 진행하고 있다.
 
 ## 발표 자료
-발표일 3일전 업로드 예정
+[session-01.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/4th/session-01/session-01.pdf)

@@ -35,4 +35,4 @@ Linux Standard Base (LSB) core specification 3.1, 2018. 9 ~ 현재)
 - 스마트시티, 스트림 리즈닝, 리눅스
 
 ## 발표 자료
-발표일 3일전 업로드 예정
+[lightning-02.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/4th/lightning-02/lightning-02.pdf)
