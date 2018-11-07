@@ -3,7 +3,7 @@ layout: default
 comments: true
 ---
 
-# 커널 엔지니어가 회사 밖에서 일하며 겪는 이야기
+# 커널 엔지니어가 회사 밖에서 먹고 사는 이야기
 제4회 한국 리눅스 커널 개발자 모임 발표: 라이트닝 토크
 
 ## 발표내용
@@ -19,3 +19,6 @@ comments: true
 참여했으며, 임베디드 리눅스 커널에 관한 콘텐츠를 지속적으로 생산, 배포하는 것과
 디버깅 툴에 관심이 많다. 커널 엔지니어로 오래 먹고 살기 위한 궁리의 일환으로
 최근에는 회사를 설립해서 버티는 중이다.
+
+## 발표 자료
+[lightning-03.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/4th/lightning-03/lightning-03.pdf)

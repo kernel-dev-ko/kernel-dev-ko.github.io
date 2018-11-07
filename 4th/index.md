@@ -14,7 +14,7 @@
 | 19:45 | main topic | [Linux Kernel Memory Model](session-02/) | 박성재 |
 | 20:30 | lightning talk | [NVM(Non-volatile Memory)와 리눅스 커널](lightning-01/)| 이현철 |
 | 20:40 | lightning talk | [리눅스 인사이드 활동 및 리눅스 표준화 동향](lightning-02/) | 윤창호 |
-| 20:50 | lightning talk | [커널 엔지니어가 회사 밖에서 일하며 겪는 이야기](lightning-03/) | 윤석훈 |
+| 20:50 | lightning talk | [커널 엔지니어가 회사 밖에서 먹고 사는 이야기](lightning-03/) | 윤석훈 |
 
 ## 약도
 
