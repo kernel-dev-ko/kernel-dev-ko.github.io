@@ -19,4 +19,4 @@ KOSSLAB 에서 파트타임 오픈프론티어로 활동하며 취미를 겸해�
 메모리 관리입니다.
 
 ## 발표 자료
-발표일 3일전 업로드 예정
+[session-02.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/4th/session-01/session-02.pdf)
