@@ -18,4 +18,3 @@ KOSSLAB 개발자이고, 리눅스 커널의 netfilter 프로젝트에서 활동
 커널, 네트워킹, netfilter, bpf/xdp, load-balancer에 관심이 있다.
 
 ## 발표 자료
-[lightning-02.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/4th/lightning-02/lightning-02.pdf)

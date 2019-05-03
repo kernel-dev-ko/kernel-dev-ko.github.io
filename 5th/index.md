@@ -2,7 +2,7 @@
 
 * 날짜: 2019. 05. 23 (목)
 * 시간: 오후 7시 ~ 9시
-* 장소: 서울시 강남구 테헤란로1길 10 세경빌딩 6층
+* 장소: 서울시 강남구 테헤란로1길 10 세경빌딩 6층 Space 14
 
 (주차는 지원되지 않습니다)
 
@@ -14,8 +14,8 @@
 | 19:40 | lightning talk | [Quick boot (deferred initcall)](lightning-01/) | 구본규 |
 | 19:55 | break time | | |
 | 20:05 | main topic | [Android 및 kernel 7년 변천사](session-02/) | 박주형 |
-| 20:45 | lightning talk | [Netfilter and Network stack](lightning-02/) | 유태희 |
-| 21:00 | networking time | | |
+| 20:45 | lightning talk | [Netfilter and network stack](lightning-02/) | 유태희 |
+| 21:00 | networking time(다과) | | |
 
 발표가 끝나고 오후 9시 ~ 9시 45분 동안 간단한 다과를 하면서 참석자들이
 자유롭게 대화를 나눠보는 시간을 마련했습니다.
