@@ -28,5 +28,5 @@
 발표 신청이 마감되었습니다.
 
 ## 참석 신청
-[onoffmix link]()
+[onoffmix link](https://www.onoffmix.com/event/178349)
 
