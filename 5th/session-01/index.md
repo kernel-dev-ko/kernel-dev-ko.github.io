@@ -18,3 +18,4 @@ comments: true
 리눅스 커널의 slab 메인테이너이고, 현재 LG전자 오픈소스팀에서 근무하고 있다.
 
 ## 발표 자료
+[session-01.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/5th/session-01/session-01.pdf)
