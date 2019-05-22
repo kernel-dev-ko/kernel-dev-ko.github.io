@@ -20,3 +20,4 @@ ARM 커널 스터디에 참여했으며, 그 결실로 '코드로 알아보는 A
 궁금해 하고 있다.
 
 ## 발표 자료
+[lightning-01.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/5th/lightning-01/lightning-01.pdf)
