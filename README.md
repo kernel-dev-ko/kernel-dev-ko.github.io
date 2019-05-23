@@ -4,6 +4,10 @@
 
 ## 새소식
 
+* 2019-05-23
+[제5회 한국 리눅스 커널 개발자 모임](5th/)의 질의응답을 위한 게시판을
+생성했습니다. [게시판](https://app2.sli.do/event/nikxasb8/live/questions)
+
 * 2019-05-03
 [제5회 한국 리눅스 커널 개발자 모임](5th/) 행사 장소 및 발표 주제가
 확정되었습니다. [onoffmix](https://www.onoffmix.com/event/178349)를 통해 참가
