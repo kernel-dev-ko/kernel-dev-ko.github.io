@@ -6,7 +6,7 @@
 
 * 2019-05-23
 [제5회 한국 리눅스 커널 개발자 모임](5th/)의 질의응답을 위한 게시판을
-생성했습니다. [게시판](https://app2.sli.do/event/nikxasb8/live/questions)
+생성했습니다. [Q&A 게시판](https://app2.sli.do/event/nikxasb8/live/questions)
 
 * 2019-05-03
 [제5회 한국 리눅스 커널 개발자 모임](5th/) 행사 장소 및 발표 주제가
