@@ -21,3 +21,4 @@ AOSP soong, EAS, A/B partition layout, Project Treble, f2fs와 lmkd/PSI
 Paranoid Android의 개발 팀원으로 활동 중이다.
 
 ## 발표 자료
+[session-02.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/5th/session-02/session-02.pdf)
