@@ -2,7 +2,15 @@
 
 리눅스 커널에 관심을 가지고 연구/개발을 진행하고 있는 분들 간의 인적/기술적 교류를 위한 모임입니다. 한국에서 리눅스 커널에 관해 논의하기 위한 자리가 더이상 존재하지 않아서 몇몇 분들의 뜻을 모아 모임을 만들게 되었습니다. 관심있는 여러분들의 적극적인 참여와 협조를 부탁드립니다.
 
+## 관련 링크
+
+* 모임 메일링 리스트: [Korea Linux Kernel Developers Meetup](https://groups.google.com/forum/?hl=ko#!forum/korea-linux-kernel-developers-meetup)
+* 모임 인스타그램: [인스타그램](https://www.instagram.com/kernel.dev.ko/?hl=ko)
+
 ## 새소식
+
+* 2018-05-24
+단제 대화 채널이 필요하다고 생각하시는 분들은 kernel.dev.ko@gmail.com으로 연락을 주시면, 검토 후에 개설 및 공지를 하겠습니다.
 
 * 2018-05-24
 [제5회 한국 리눅스 커널 개발자 모임](5th/) 행사를 성공적으로 마쳤습니다. 참여해주신 모든 분들께 감사드립니다.
