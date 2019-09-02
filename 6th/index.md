@@ -10,7 +10,7 @@
 
 | 시간 | 형식 | 제목 | 발표자 |
 |----|----|----|----|
-| 19:05 | main topic | [Kernel report](session-01/) | 박병철 |
+| 19:05 | main topic | Kernel report | 박병철 |
 | 19:40 | lightning talk | | |
 | 19:55 | break time | | |
 | 20:05 | main topic | | |
