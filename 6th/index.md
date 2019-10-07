@@ -2,7 +2,7 @@
 
 * 날짜: 2019. 11. 7 (목)
 * 시간: 오후 7시 ~ 9시 50분
-* 장소: 서울시 강남구 테헤란로1길 10 세경빌딩 6층 Space 14
+* 장소: 서울시 강남구 테헤란로1길 10 세경빌딩 6층 Space 14(강남역 11번 출구 근처)
 
 (주차는 지원되지 않습니다)
 
@@ -10,11 +10,12 @@
 
 | 시간 | 형식 | 제목 | 발표자 |
 |----|----|----|----|
+| 19:00 | | 모임 소개| |
 | 19:05 | main topic | Kernel report | 박병철 |
-| 19:40 | lightning talk | | |
+| 19:40 | lightning talk | 커널 크래시 디버깅 방법 소개 | 김동현 |
 | 19:55 | break time | | |
-| 20:05 | main topic | | |
-| 20:40 | lightning talk | | |
+| 20:05 | main topic | Tuning interrupt handling latency in Linux-RT | 황재호 |
+| 20:40 | lightning talk | BPF 소개 및 적용 사례 | 송태웅 |
 | 20:55 | networking time (다과) | | |
 
 발표가 끝나고 오후 9시 50분까지 간단한 다과를 하면서 참석자들이
