@@ -11,11 +11,11 @@
 | 시간 | 형식 | 제목 | 발표자 |
 |----|----|----|----|
 | 19:00 | | 모임 소개| |
-| 19:05 | main topic | Kernel report | 박병철 |
-| 19:40 | lightning talk | 커널 크래시 디버깅 방법 소개 | 김동현 |
+| 19:05 | main topic | [Kernel report](session-01/) | 박병철 |
+| 19:40 | lightning talk | [커널 크래시 디버깅 방법 소개](lightning-01/) | 김동현 |
 | 19:55 | break time | | |
-| 20:05 | main topic | Tuning interrupt handling latency in Linux-RT | 황재호 |
-| 20:40 | lightning talk | BPF 소개 및 적용 사례 | 송태웅 |
+| 20:05 | main topic | [Tuning interrupt handling latency in Linux-RT](session-02/) | 황재호 |
+| 20:40 | lightning talk | [BPF 소개 및 적용 사례](lightning-02/) | 송태웅 |
 | 20:55 | networking time (다과) | | |
 
 발표가 끝나고 오후 9시 50분까지 간단한 다과를 하면서 참석자들이
