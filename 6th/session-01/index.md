@@ -20,3 +20,4 @@ comments: true
 scheduler 및 RCU 그리고 lockdep 등이다.
 
 ## 발표 자료
+[kernelreport.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/6th/session-01/kernelreport.pdf)
