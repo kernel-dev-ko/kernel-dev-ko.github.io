@@ -25,6 +25,7 @@
 [festa link](https://festa.io/events/2557)
 
 ## 약도
+<iframe src="https://www.google.com/maps/place/%EA%B3%B5%EA%B0%84%EB%8D%94%ED%95%98%EA%B8%B0/dat=!4m5!3m4!1s0x0:0x1ce9808f27ef26e2!8m2!3d37.4989051!4d127.0282165" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 ## 후원
 * 알티스트: 세션 간식 및 발표자 선물 지원
