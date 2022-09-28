@@ -18,4 +18,4 @@ comments: true
 slab 서브시스템에서 리뷰어로 활동하고 있고 컴퓨터 구조와 메모리 관리 분야에 관심이 많은 학생 개발자입니다.
 
 ## 발표 자료
-[lightning-02.p](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/7th/lightning-02/lightning-02.pptx)
+[lightning-02.pptx](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/7th/lightning-02/lightning-02.pptx)
