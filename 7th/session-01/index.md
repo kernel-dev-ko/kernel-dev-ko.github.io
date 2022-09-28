@@ -19,4 +19,4 @@ auditd 의 기능을 알기 쉽게 정리하고, 우리가 리눅스 환경에�
 저는 리눅스 커널 보안 모듈 및 각종 커널 서브시스템을 활용하여 리눅스 보안 엔진을 개발중입니다.
 
 ## 발표 자료
-[session-01.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/7th/session-01/session-01.pdf)
+[session-01 github hosting URL](https://linux-kernel-slide.github.io/)
