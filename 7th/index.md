@@ -11,11 +11,11 @@
 | 시간 | 형식 | 제목 | 발표자 |
 |----|----|----|----|
 | 19:00 | | 모임 소개 | |
-| 19:05 | lightning talk | kernel report | 김준수 |
-| 19:20 | main topic | Dude, Do you even audit? | 이파란 |
+| 19:05 | lightning talk | [kernel report](lightning-01/) | 김준수 |
+| 19:20 | main topic | [Dude, Do you even audit?](session-01/) | 이파란 |
 | 19:55 | break time | | |
-| 20:05 | main topic | GKI - ARM도 하나의 커널로 | 박주형 |
-| 20:40 | lightning talk | 초보자가 말하는, 초보자를 위한 커널 입문 가이드 | 유형곤 |
+| 20:05 | main topic | [GKI - ARM도 하나의 커널로](session-02/) | 박주형 |
+| 20:40 | lightning talk | [초보자가 말하는, 초보자를 위한 커널 입문 가이드](lightning-02/) | 유형곤 |
 | 20:55 | networking time (다과) | |
 
 발표가 끝나고 오후 9시 50분까지 간단한 다과를 하면서 참석자들이
