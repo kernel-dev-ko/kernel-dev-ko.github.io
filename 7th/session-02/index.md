@@ -25,4 +25,4 @@ userspace쪽은 2017년부터 Project Treble로 표준화가 되었지만, 커�
 안드로이드 시스템을 연구하고 있다.
 
 ## 발표 자료
-[session-02.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/5th/session-02/session-02.pdf)
+[session-02.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/7th/session-02/session-02.pdf)
