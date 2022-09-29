@@ -20,3 +20,4 @@ auditd 의 기능을 알기 쉽게 정리하고, 우리가 리눅스 환경에�
 
 ## 발표 자료
 [session-01 github hosting URL](https://linux-kernel-slide.github.io/)
+[session-01.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/7th/session-01/session-01.pdf)
