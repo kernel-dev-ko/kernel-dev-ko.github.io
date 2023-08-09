@@ -27,4 +27,4 @@
 
 ## 약도
 
-<img src=./space_plus.gif>
+![공간더하기 약도](./space_plus.gif)
