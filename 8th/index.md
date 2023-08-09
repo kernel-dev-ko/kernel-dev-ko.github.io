@@ -24,3 +24,7 @@
 
 ## 후원
 미정
+
+## 약도
+
+<img src=./space_plus.gif>
