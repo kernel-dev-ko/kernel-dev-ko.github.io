@@ -8,8 +8,8 @@ comments: true
 
 ## 발표내용
 Linux  & Xen 환경에서의 안정성 & 보안성에 대해서 Linux & Xen 의 주요 기능이 이를 어떤 식으로 제공하는지 소개하려고 합니다.
-- Xen 오버뷰 
-- Functional Safety & Security Critical System 에서의 Xen 과 연결된 Linux 기능 살펴보기 
+- Xen 오버뷰  
+- Functional Safety & Security Critical System 에서의 Xen 과 연결된 Linux 기능 살펴보기  
 
 
 ## 발표자 소개
