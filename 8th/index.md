@@ -10,7 +10,7 @@
 |----|----|----|----|
 | 19:00 | | 모임 소개 | |
 | 19:05 | main topic | [kernel report](session-01/) | 김동현 |
-| 19:30 | lightning talk | [Linux & Xen For \\ Functional Safety & Security Critical System (feat: Automotive)](lightning-01) | 이파란 |
+| 19:30 | lightning talk | [Linux & Xen For Functional Safety & Security Critical System (feat: Automotive)](lightning-01) | 이파란 |
 | 19:45 | lightning talk | [eBPF 를 활용한 memory leak sanitizer](lightning-02) | 서보준 |
 | 20:00 | break time | | |
 | 20:10 | main topic | [Linux Kernel Hacking (From user to root privileges)](session-02) | 김현우 |
