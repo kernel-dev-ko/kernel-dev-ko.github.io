@@ -9,7 +9,7 @@
 | 시간 | 형식 | 제목 | 발표자 |
 |----|----|----|----|
 | 19:00 | | 모임 소개 | |
-| 19:05 | main topic | [kernel report] | 김동현 |
+| 19:05 | main topic | kernel report | 김동현 |
 | 19:30 | lightning talk | Linux & Xen For Functional Safety & Security Critical System (feat: Automotive) | 이파란 |
 | 19:45 | lightning talk | eBPF 를 활용한 memory leak sanitizer | 서보준 |
 | 20:00 | break time | | |
