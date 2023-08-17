@@ -9,12 +9,12 @@
 | 시간 | 형식 | 제목 | 발표자 |
 |----|----|----|----|
 | 19:00 | | 모임 소개 | |
-| 19:05 | main topic | kernel report | 김동현 |
-| 19:30 | lightning talk | Linux & Xen For Functional Safety & Security Critical System (feat: Automotive) | 이파란 |
-| 19:45 | lightning talk | eBPF 를 활용한 memory leak sanitizer | 서보준 |
+| 19:05 | main topic | [kernel report](session-01/) | 김동현 |
+| 19:30 | lightning talk | [Linux & Xen For \\ Functional Safety & Security Critical System (feat: Automotive)](lightning-01) | 이파란 |
+| 19:45 | lightning talk | [eBPF 를 활용한 memory leak sanitizer](lightning-02) | 서보준 |
 | 20:00 | break time | | |
-| 20:10 | main topic | Linux Kernel Exploit | 김현우 |
-| 20:45 | lightning talk | USBNET 프레임워크 최적화 리뷰 | 안이수 |
+| 20:10 | main topic | [Linux Kernel Hacking (From user to root privileges)](session-02) | 김현우 |
+| 20:45 | lightning talk | [USBNET 프레임워크 최적화 리뷰](lightning-03) | 안이수 |
 | 21:00 | networking time (다과) | |
 
 발표가 끝나고 오후 9시 50분까지 간단한 다과를 하면서 참석자들이
@@ -28,4 +28,6 @@
 ![공간더하기 약도](./space_plus.gif)
 
 ## 후원
-* LG전자: 장소 대여비 및 네트워킹 간식 지원
+* LG전자: 장소 대여비 및 네트워킹 시간 간식 지원
+* SK hynix: 간식 지원
+* 알티스트: 간식 박스 및 발표자에게 판촉물 우산
