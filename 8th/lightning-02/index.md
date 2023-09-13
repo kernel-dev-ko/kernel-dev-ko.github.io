@@ -27,4 +27,4 @@ https://github.com/iovisor/bcc/pull/4120
 저는 memory leak 과 오픈 소스에 진심인 LG전자 개발자 입니다.
 
 ## 발표 자료
-발표 전 첨부 예정
+[lightining-02](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/master/8th/lightning-02/lightning-02.pdf)
