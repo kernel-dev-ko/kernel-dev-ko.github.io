@@ -16,4 +16,4 @@ comments: true
 LG전자에서 11년 동안 안드로이드 기반 리눅스 BSP를 개발했으며, Kernel stability debugging 및 troubleshooting을 담당했습니다.
 
 ## 발표 자료
-발표 전 첨부 예정
+[session-01](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/master/8th/session-01/session-01.pdf)
