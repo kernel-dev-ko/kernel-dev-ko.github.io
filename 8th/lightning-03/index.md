@@ -15,4 +15,4 @@ USB 기반의 네트워크 드라이버를 설계하기 쉽도록 프레임워�
 현재 리눅스 회사의 OS 개발 파트에서 엔지니어로 일하고 있으며 야근하지 않기 위해 효율적으로 디버깅하는 방법에 관심이 많습니다.
 
 ## 발표 자료
-발표 전 첨부 예정
+[lightning-03](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/master/8th/lightning-03/lightning-03.pdf)
