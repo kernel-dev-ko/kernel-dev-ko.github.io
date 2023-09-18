@@ -19,4 +19,4 @@ Linux  & Xen 환경에서의 안정성 & 보안성에 대해서 Linux & Xen 의 
 취미로 오픈소스 컨트리뷰션 활동 및 유튜브 채널을 운영 하고 있습니다.
 
 ## 발표 자료
-[lightning-01](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/master/8th/lightning-01/lightning-01.pdf)
+[lightning-01](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/master/8th/lightning-01/lightning-01-1.pdf)
