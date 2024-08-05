@@ -9,12 +9,12 @@
 | 시간 | 형식 | 제목 | 발표자 |
 |----|----|----|----|
 | 19:00 | | 모임 소개 | |
-| 19:05 | main topic | 미정 | 미정 |
-| 19:30 | lightning talk | 미정 | 미정 |
-| 19:45 | lightning talk | 미정 | 미정 |
-| 20:00 | break time | | |
-| 20:10 | main topic | 미정 | 미정 |
-| 20:45 | lightning talk | 미정 | 미정 |
+| 19:05 | main topic | kernel report | 이현철 |
+| 19:35 | lightning talk | 구글 클라우드 서버의 커널을 해킹해 상금을 받아보자 (Google KernelCTF) | 김현우 |
+| 19:50 | lightning talk | Realtime 성능을 보장할 수 있는 어플리케이션 코드 작성을 위한 Coding Guideline | 황재호 |
+| 20:05 | break time | | |
+| 20:15 | main topic | LUF(Lazy Unmap Flush) 메커니즘 소개 | 박병철 |
+| 20:45 | lightning talk | Recent Android kernel trend for device longevity | 남영민 |
 | 21:00 | networking time (다과) | |
 
 발표가 끝나고 오후 9시 50분까지 간단한 다과를 하면서 참석자들이
