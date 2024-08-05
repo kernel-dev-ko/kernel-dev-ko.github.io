@@ -6,6 +6,7 @@
 
 * 모임 메일링 리스트: [Korea Linux Kernel Developers Meetup](https://groups.google.com/forum/?hl=ko#!forum/korea-linux-kernel-developers-meetup)
 * 모임 인스타그램: [인스타그램](https://www.instagram.com/kernel.dev.ko/?hl=ko)
+* 모임 유튜브(다시보기): [유튜브](http://www.youtube.com/@kernel-dev-ko)
 
 ## 새소식
 * 2024-08-05
