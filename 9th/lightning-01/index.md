@@ -64,4 +64,4 @@ comments: true
 * media: dvb-core: Fix UAF due to refcount races at releasing
 
 ## 발표 자료
-발표 하루전 업데이트 예정
+발표 자료 비공개 (행사 내에서만 공개)
