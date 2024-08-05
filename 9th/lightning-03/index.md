@@ -15,7 +15,7 @@ comments: true
 ## 발표자 소개
 
 ### 남영민
-삼성전자 S.LSI 근무
+삼성전자 S.LSI 에서 Mobile AP BSP 개발업무를 하고 있으며 주로 Kernel, Android bring up, System stability 이슈 분석 업무를 하고 있습니다
 
 ## 발표 자료
 발표 하루전 업데이트 예정
