@@ -17,4 +17,4 @@ https://lore.kernel.org/lkml/20240531092001.30428-1-byungchul@sk.com/
 현재 SK hynix에서 메모리 관리 서브시스템에 컨트리뷰션을 하고 있다. LUF(Lazy Unmap Flush) 메커니즘 외에도 DEPT(DEPendency Tracker) 툴을 개발 중이며, 주요 관심사는 스케줄러, 동기화, 메모리 관리이다.
 
 ## 발표 자료
-발표 하루전 업데이트 예정
+[session-02](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/master/9th/session-02/session-02.pdf)
