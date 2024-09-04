@@ -10,8 +10,8 @@
 |----|----|----|----|
 | 19:00 | | 모임 소개 | |
 | 19:05 | main topic | [kernel report](session-01) | 이현철 |
-| 19:35 | lightning talk | [구글 클라우드 서버의 커널을 해킹해 상금을 받아보자 (Google KernelCTF)](lightning-01) | 김현우 |
-| 19:50 | lightning talk | [Realtime 성능을 보장할 수 있는 어플리케이션 코드 작성을 위한 Coding Guideline](lightning-02) | 황재호 |
+| 19:35 | lightning talk | [구글 클라우드 서버의 커널을 해킹해 상금을 받아보자 (Google kernelCTF)](lightning-01) | 김현우 |
+| 19:50 | lightning talk | [Realtime Application 성능 최적화를 위한 RT-Linux 환경 구성](lightning-02) | 황재호 |
 | 20:05 | break time | | |
 | 20:15 | main topic | [LUF(Lazy Unmap Flush) 메커니즘 소개](session-02) | 박병철 |
 | 20:45 | lightning talk | [Recent Android kernel trend for device longevity](lightning-03) | 남영민 |

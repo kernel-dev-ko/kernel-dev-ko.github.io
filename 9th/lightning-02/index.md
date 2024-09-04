@@ -3,7 +3,7 @@ layout: default
 comments: true
 ---
 
-# Realtime 성능을 보장할 수 있는 어플리케이션 코드 작성을 위한 Coding Guideline
+# Realtime Application 성능 최적화를 위한 RT-Linux 환경 구성
 제9회 한국 리눅스 커널 개발자 모임 발표: 라이트닝 토크
 
 ## 발표내용

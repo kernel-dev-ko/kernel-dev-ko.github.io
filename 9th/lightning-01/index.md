@@ -3,11 +3,11 @@ layout: default
 comments: true
 ---
 
-# 구글 클라우드 서버의 커널을 해킹해 상금을 받아보자 (Google KernelCTF)
+# 구글 클라우드 서버의 커널을 해킹해 상금을 받아보자 (Google kernelCTF)
 제9회 한국 리눅스 커널 개발자 모임 발표: 라이트닝 토크
 
 ## 발표내용
-구글의 리눅스 커널 해킹 대회인 Google VRP KernelCTF에서 우승하여 $51,337를 받게 된 스토리
+구글의 리눅스 커널 해킹 대회인 Google VRP kernelCTF에서 우승하여 $51,337를 받게 된 스토리
 
 
 ## 발표자 소개
