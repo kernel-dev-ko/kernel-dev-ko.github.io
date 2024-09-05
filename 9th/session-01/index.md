@@ -17,4 +17,4 @@ comments: true
 주요 관심사는 VFS, block layer, F2FS 등이다.
 
 ## 발표 자료
-[Kenrel Report(v6.5~v6.10)](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/master/9th/session-01/session-01.pdf)
+[Kenrel Report(v6.5~v6.10)](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/master/9th/session-01/Kernel_report_240904-03.pdf)
