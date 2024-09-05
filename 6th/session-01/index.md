@@ -15,9 +15,7 @@ comments: true
 ## 발표자 소개
 
 ### 박병철
-12년간 system S/W 엔지니어로 근무하고 있으며, 현재는 LG전자 오픈소스
-팀에서 scheduler 분야에 컨트리뷰션을 하고 있다. 현재 주요 관심사는
-scheduler 및 RCU 그리고 lockdep 등이다.
+LG전자 오픈소스팀에서 scheduler 분야에 컨트리뷰션을 하고 있다. 현재 주요 관심사는 scheduler 및 RCU 그리고 lockdep 등이다.
 
 ## 발표 자료
 [kernelreport.pdf](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/master/6th/session-01/kernelreport.pdf)
