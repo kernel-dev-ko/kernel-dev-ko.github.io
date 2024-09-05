@@ -34,4 +34,4 @@ OS 및 시스템 S/W 전문 기업 알티스트 리눅스 팀장.
 무기체계 및 산업용 장비를 주 대상으로 Linux 공급 및 기술지원을 담당한다.
 
 ## 발표 자료
-[lightning-02](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/master/9th/lightning-02/lightning-02.pdf)
+[Realtime Application 성능 최적화를 위한 RT-Linux 환경 구성](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/master/9th/lightning-02/lightning-02.pdf)

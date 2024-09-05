@@ -17,7 +17,7 @@ comments: true
 
 ### 개인 이력
 
-#### Vulnerability report   
+#### Vulnerability report
 
 * CVE-2024-27394 (Linux kernel TCP Use-After-Free)
 * CVE-2024-27395 (Linux kernel openvswitch Use-After-Free)
@@ -41,7 +41,7 @@ comments: true
 * CVE-2022-44034 (Linux kernel Device driver Use-After-Free)
 * CVE-2022-45888 (Linux kernel Device driver Use-After-Free)
 
-#### Linux kernel contribution   
+#### Linux kernel contribution
 
 * tcp: Fix Use-After-Free in tcp_ao_connect_init
 * net: openvswitch: Fix Use-After-Free in ovs_ct_exit
