@@ -1,1 +1,22 @@
 theme: jekyll-theme-cayman
+
+# 사이트 정보
+title: 한국 리눅스 커널 개발자 모임
+description: 리눅스 커널에 관심을 가지고 연구/개발을 진행하고 있는 분들 간의 인적/기술적 교류를 위한 모임입니다.
+url: https://kernel-dev-ko.github.io
+baseurl: ""
+
+# 마크다운 처리 설정
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-readme-index
+  - jekyll-seo-tag
+
+# README.md를 index로 사용
+readme_index:
+  enabled: true
+  remove_originals: true

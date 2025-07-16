@@ -194,3 +194,49 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; }
+
+/* 지난소식 섹션 스타일 */
+details {
+  margin-bottom: 1rem;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #159957;
+  padding: 0.5rem 0;
+  user-select: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+summary:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+/* 화살표 스타일 */
+summary::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+/* 기본 브라우저 화살표 제거 */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* 내용 스타일 */
+details > ul {
+  margin-top: 0.5rem;
+  border-left: 2px solid #e9ebec;
+  padding-left: 1rem;
+}
