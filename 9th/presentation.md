@@ -1,3 +1,9 @@
+---
+layout: page
+title: 제9회 발표자 모집
+permalink: /9th/presentation/
+---
+
 # 제9회 한국 리눅스 커널 개발자 모임 발표자 모집
 
 안녕하세요. 한국 리눅스 커널 개발자 모임 운영진입니다.
@@ -11,7 +17,7 @@
 
 1. 신청 방법 및 기한:
 <ul>
-<li>방법: 제목과 발표 내용의 요약, 그리고 간단한 자기 소개를 메일(kernel.dev.ko@gmail.com)로 보내 주시기 바랍니다.</li>
+<li>방법: 제목과 발표 내용의 요약, 그리고 간단한 자기 소개를 메일([kernel.dev.ko@gmail.com](mailto:kernel.dev.ko@gmail.com))로 보내 주시기 바랍니다.</li>
 <li>기한: 2024년 7월 31일 (수)</li>
 <li>발표: 2024년 8월 5일 (월)</li>
 </ul>
