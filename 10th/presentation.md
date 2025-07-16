@@ -25,8 +25,9 @@ permalink: /10th/presentation/
 ## 발표 형식
 - Main Session: 30분
 - Half Session: 15분
-- Lightning Session: 5분
+- Lightning Session: 5분 (간단한 기술소개, 개발 팁등 다양한 주제 가능)
 
 ## 참고 사항
 - Lightning Session 발표자는 네트워크 시간에 질의응답 없이 발표만 진행합니다.
+  이후 네트워크 세션을 활용하여 궁금한 내용을 서로 소통하시면 됩니다.
 - 발표 내용은 동의 후 유튜브로 공유될 예정입니다.
