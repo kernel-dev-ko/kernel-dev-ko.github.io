@@ -20,6 +20,7 @@ Work Experience
 - Theori (2022.11 ~ 2025.07)
 
 Awards
+- Pwnie Awards 2025 Best Privilege Escalation category WIN (CVE-2024-50264)
 - Pwn2Own Berlin 2025 Red Hat Linux in the LPE category WIN (Theori, $15,000)
 - Google kernelCTF LTS-6.6.75/COS-105 1-day WIN (CVE-2025-21756, $71,337)
 - Google kernelCTF LTS-6.6.56/COS-109 0-day WIN (CVE-2024-50264, $81,337)
