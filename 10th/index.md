@@ -15,7 +15,7 @@ permalink: 10th/
 | 시간 | 형식 | 제목 | 발표자 |
 |----|----|----|----|
 | 19:00 | | 모임 소개 | 사회자 |
-| 19:05 | Main | Kernel Report | 이경식 |
+| 19:05 | Main | [Kernel Report](main-01/) | 이경식 |
 | 19:25 | Half | [Device Memory TCP 를 통한 효율적인 데이터 전송](half-01/) | 문연수 |
 | 19:40 | Half | [시스템 관리자를 위한 커널 공격 표면 파악: 주요 CVE 사례와 검증 노하우](half-02/) | 김현우 |
 | 19:55 | break time | | |

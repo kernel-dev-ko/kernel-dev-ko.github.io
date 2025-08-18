@@ -1,10 +1,7 @@
 ---
 layout: default
 ---
-# Lightning Talk 03
-
-## 발표 주제
-Shallow dive into Linux kernel fuzzing with syzkaller
+# Shallow dive into Linux kernel fuzzing with syzkaller
 
 ## 요약
 * software 버그를 자동으로 발견하는 testing 기술인 fuzzing에 대한 간략한 소개
@@ -14,4 +11,4 @@ Shallow dive into Linux kernel fuzzing with syzkaller
 ## 발표자 소개
 장선우:
 * 리눅스 커널을 좋아하는 Independent Security Researcher
-* Linkedin: https://www.linkedin.com/in/sunwoo-jang-4731a4179/
+* Linkedin: [https://www.linkedin.com/in/sunwoo-jang-4731a4179/](https://www.linkedin.com/in/sunwoo-jang-4731a4179/)

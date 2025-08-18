@@ -1,10 +1,7 @@
 ---
 layout: default
 ---
-# Lightning Talk 02
-
-## 발표 주제
-리눅스 커널의 양자 컴퓨팅 시대에 맞는 암호(Post-Quantum Cryptography, PQC) 대비
+# 리눅스 커널의 양자 컴퓨팅 시대에 맞는 암호(Post-Quantum Cryptography, PQC) 대비
 
 ## 발표 자료
 (준비중)

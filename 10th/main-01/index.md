@@ -1,17 +1,14 @@
 ---
 layout: default
 ---
-# Main Session 01
-
-## 발표 주제
-Kenrel Report
+# Kenrel Report
 
 ## 요약
+kernel v6.11 ~ v6.16 수정 사항 요약
 
 ## 발표 자료
 (준비중)
 
 ## 발표자 소개
 이경식
-* LG 전자 Security Specialist
-
+현재 LG전자에서 Linux kernel hardening 업무를 담당하고 있다. Linux kernel contribution 및 Linux Foundation 학회에서 발표를 했고 주요 관심사는 Cybersecurity와 Vision Language Model (VLM) 개발 등이다.

@@ -1,10 +1,7 @@
 ---
 layout: default
 ---
-# Half Session 03
-
-## 발표 주제
-리눅스커널 제품화와 업스트림
+# 리눅스커널 제품화와 업스트림
 
 ## 요약
 * 리눅스 커널 개발의 두 세계:  upstream 과 downstream
