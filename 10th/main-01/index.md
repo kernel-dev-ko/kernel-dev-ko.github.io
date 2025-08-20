@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Kenrel Report
+# Kernel Report
 
 ## 요약
 kernel v6.11 ~ v6.16 수정 사항 요약
