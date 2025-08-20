@@ -53,7 +53,7 @@ Vulnerability Reports
 
 Linux Kernel Contributions
 - net/sched: fix use-after-free in taprio_dev_notifier
-- vsock: prevent null-ptr-deref in vsock_*[has_data|has_space]
+- vsock: prevent null-ptr-deref in vsock_*[has_data\|has_space]
 - vsock/virtio: cancel close work in the destructor
 - vsock/virtio: discard packets if the transport changes
 - vsock/virtio: Initialization of the dangling pointer occurring in vsk->trans
