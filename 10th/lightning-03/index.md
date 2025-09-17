@@ -8,6 +8,9 @@ layout: default
 * Linux kernel community가 사용중인 syzkaller / syzbot 소개
 * 커널 개발자로서 내가 짠 코드, 또는 관심 있는 subsystem에 쉽게 syzkaller fuzzer를 실행해보기
 
+## 발표자료
+[Shallow dive into Linux kernel fuzzing with syzkaller](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/refs/heads/master/10th/lightning-03/lightning-03.pdf)
+
 ## 발표자 소개
 장선우:
 * 리눅스 커널을 좋아하는 Independent Security Researcher

@@ -7,7 +7,7 @@ layout: default
 Memory cgroup은 상위 cgroup이 계층 구조에서 제거된 이후에도, 소유한 메모리가 모두 해제되기 전까지는 좀비 상태로 남습니다. 시나리오에 따라 일부 메모리는 회수할 수 없는 경우도 있기 때문에, memory cgroup이 장기간 좀비 상태로 유지될 수 있습니다. 만약 cgroup을 자주 생성하고 삭제하는 경우 이러한 zombie memory cgroup이 누적되어 커널 메모리가 낭비될 수 있으며, 이를 어떻게 해결할 수 있을지에 대해 논의합니다.
 
 ## 발표 자료
-(준비중)
+[Zombie Memroy Cgroup 이슈와 논의 중인 해결 방안](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/8c334753ac25b13618e32a778049cdefa71fb7a8/10th/half-04/half-04.pdf)
 
 ## 발표자 소개
 유형곤 (Harry Yoo)

@@ -11,7 +11,7 @@ Device Memory TCP 는 Linux Kernel 6.12 에 추가된 기술로, 전통적인 TC
 - [관련 리눅스커널 Changlog](https://kernelnewbies.org/LinuxChanges#Linux_6.16.Networking)
 
 ## 발표 자료
-(준비중)
+[Device Memory TCP를 통한 효율적인 데이터 전송](https://github.com/kernel-dev-ko/kernel-dev-ko.github.io/raw/8c334753ac25b13618e32a778049cdefa71fb7a8/10th/half-01/half-01.pptx)
 
 ## 발표자 소개
 문연수:
