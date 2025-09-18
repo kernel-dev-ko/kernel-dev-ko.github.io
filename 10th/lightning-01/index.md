@@ -10,7 +10,7 @@ layout: default
 본 발표에서 `공유기`에 Ubuntu와 모델을 올리는 절차, 그리고 작동 원리를 상세히 설명할 예정이다.
 
 ## 발표 자료
-(준비중)
+[운영체제의 기본 옵션에는 컨테이너가 있어요!](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/refs/heads/master/10th/lightning-01/lightning-01.pdf)
 
 ## 발표자 소개
 차주형 : UST, ETRI 스쿨 석사과정

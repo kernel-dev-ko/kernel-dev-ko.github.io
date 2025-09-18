@@ -3,12 +3,12 @@ layout: default
 ---
 # 리눅스 커널의 양자 컴퓨팅 시대에 맞는 암호(Post-Quantum Cryptography, PQC) 대비
 
-## 발표 자료
-(준비중)
-
 ## 요약
 * 리눅스 커널에 양자 이후 암호(PQC) 지원을 도입하기 위한 실질적인 단계와 고려사항
 * 특히 오픈소스 기여자 및 커널 개발자에게 관련된 통합 전략에 초점
+
+## 발표 자료
+[리눅스 커널의 양자 컴퓨팅 시대에 맞는 암호(PQC) 대비](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/refs/heads/master/10th/lightning-02/lightning-02.pdf)
 
 ### 왜 중요한가?
 현재의 공개키 암호 방식(RSA, ECDSA 등)은 양자 컴퓨터의 공격에 취약합니다.
