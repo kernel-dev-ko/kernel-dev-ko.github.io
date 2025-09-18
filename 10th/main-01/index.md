@@ -7,7 +7,7 @@ layout: default
 kernel v6.11 ~ v6.16 수정 사항 요약
 
 ## 발표 자료
-(준비중)
+[Kernel Report](https://raw.githubusercontent.com/kernel-dev-ko/kernel-dev-ko.github.io/refs/heads/master/10th/main-01/Kernel-Report-v9-public.pdf)
 
 ## 발표자 소개
 이경식
