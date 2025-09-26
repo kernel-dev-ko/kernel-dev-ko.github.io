@@ -36,6 +36,6 @@ permalink: 10th/
 ![공간더하기 약도](../space_plus.gif)
 
 ## 후원
-LG 전자: 장소 대여비 및 네트워킹 시간 간식<br>
-알티스트: 간식 박스<br>
-SK hynix: 발표자 선물<br>
+* [알티스트(RTst)](https://www.rtst.co.kr/) : 간식 박스
+* [SK하이닉스(SK hynix)](https://www.skhynix.com/) : 발표자 선물
+* [LG전자(LG Electronics)](https://www.lge.co.kr/company/info/mission) : 장소 대여비 및 네트워킹 시간 간식
