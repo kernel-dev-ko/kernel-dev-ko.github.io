@@ -38,4 +38,4 @@ permalink: 10th/
 ## 후원
 LG 전자: 장소 대여비 및 네트워킹 시간 간식<br>
 알티스트: 간식 박스<br>
-SK hynix: 스태프 식사 및 발표자 선물<br>
+SK hynix: 발표자 선물<br>
