@@ -238,7 +238,10 @@ body::before {
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--color-border), transparent);
 }
-.hero { max-width: 56rem; }
+/* .hero shares the .container element, so do NOT override its max-width
+   here — that would re-center the hero at a narrower width and shift its
+   left edge inward relative to every other section. Constrain only the
+   text-bearing children (hero__lede, hero__stats) instead. */
 .hero__eyebrow {
   font-family: var(--font-mono);
   font-size: var(--fs-sm);
@@ -255,6 +258,7 @@ body::before {
 .hero__prompt { color: var(--color-accent); }
 .hero__title {
   margin: 0 0 var(--space-5);
+  max-width: 22ch;
   font-size: clamp(2.25rem, 6.5vw, 4rem);
   font-weight: 700;
   letter-spacing: -0.035em;
