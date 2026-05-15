@@ -1,4 +1,5 @@
-theme: jekyll-theme-cayman
+# 테마 gem 은 사용하지 않고 로컬의 _layouts / _includes / assets 로
+# 자체 다크 테마를 제공합니다. (구 jekyll-theme-cayman 제거)
 
 # 사이트 정보
 title: 한국 리눅스 커널 개발자 모임
