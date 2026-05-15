@@ -1,46 +1,32 @@
 <!DOCTYPE html>
-<html lang="{{ site.locale }}">
-
+<html lang="{{ site.locale | default: 'ko' }}" data-theme="dark">
   {% include head.html %}
-
   <body>
+    <a class="skip-link" href="#main">본문 바로가기</a>
     {% include page-header.html %}
 
-    <section class="main-content">
+    <main id="main" class="page page--prose">
+      <article class="container container--prose">
+        {% if page.title and page.permalink != '/' %}
+          <p class="page__back"><a href="{{ '/' | relative_url }}">← 한국 리눅스 커널 개발자 모임</a></p>
+        {% endif %}
+        {{ content }}
 
-      {{ content }}
+        {% if page.comments %}
+          <div id="disqus_thread"></div>
+          <script>
+            (function() {
+              var d = document, s = d.createElement('script');
+              s.src = 'https://https-kernel-dev-ko-github-io.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+            })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        {% endif %}
+      </article>
+    </main>
 
-      {% if page.comments %}
-
-      <p>&nbsp;</p>
-
-      <div id="disqus_thread"></div>
-      <script>
-	/**
-	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-	*/
-	/*
-	var disqus_config = function () {
-        this.page.url = "{{ site.url }}{{ page.url }}";
-        this.page.identifier = "{{ page.id }}";
-	};
-	*/
-
-	(function() {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://https-kernel-dev-ko-github-io.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-	})();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
-      {% endif %}
-
-      {% include page-footer.html %}
-
-    </section>
-
+    {% include page-footer.html %}
   </body>
 </html>

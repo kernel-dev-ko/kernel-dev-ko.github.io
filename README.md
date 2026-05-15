@@ -1,148 +1,227 @@
 ---
-layout: default
+layout: home
 permalink: /
 title: "한국 리눅스 커널 개발자 모임"
+description: "리눅스 커널에 관심을 가지고 연구/개발을 진행하고 있는 분들의 인적/기술적 교류 모임입니다."
 ---
 
-# 한국 리눅스 커널 개발자 모임
+{%- assign next_meetup = nil -%}
+{%- for m in site.data.meetups -%}
+  {%- if m.status == 'upcoming' and next_meetup == nil -%}
+    {%- assign next_meetup = m -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign past_meetups = site.data.meetups | where: "status", "past" -%}
+{%- assign news_sorted = site.data.news | sort: 'date' | reverse -%}
+{%- assign latest_news = news_sorted | slice: 0, 3 -%}
+{%- assign older_news  = news_sorted | slice: 3, 100 -%}
 
-리눅스 커널에 관심을 가지고 연구/개발을 진행하고 있는 분들 간의 인적/기술적 교류를 위한 모임입니다. 한국에서 리눅스 커널에 관해 논의하기 위한 자리가 더는 존재하지 않아서 몇몇 분들의 뜻을 모아 모임을 만들게 되었습니다. 관심있는 여러분들의 적극적인 참여와 협조를 부탁드립니다.
+<!-- ============================ HERO ============================ -->
+<section class="section section--hero" id="top" aria-labelledby="hero-title">
+  <div class="container hero">
+    <p class="hero__eyebrow">
+      <span class="hero__prompt">$</span>
+      <span>uname -a · Korea Linux Kernel Developers Meetup</span>
+    </p>
+    <h1 class="hero__title" id="hero-title">
+      한국 리눅스 커널<br>개발자 모임
+    </h1>
+    <p class="hero__lede">
+      리눅스 커널에 관심을 가지고 연구/개발을 진행하는 분들의
+      인적·기술적 교류를 위한 비영리 커뮤니티입니다.
+      한국에서 리눅스 커널에 관해 깊이 있게 논의할 자리를 다시 만들기 위해
+      뜻을 모은 분들이 함께 운영합니다.
+    </p>
+    <div class="hero__cta">
+      {%- if next_meetup -%}
+        <a class="btn btn--primary" href="#next-meetup">다가오는 모임 보기</a>
+      {%- endif -%}
+      <a class="btn btn--ghost" href="{{ site.data.links.community[0].url }}">메일링 리스트 가입</a>
+      <a class="btn btn--ghost" href="#past-meetups">지난 모임</a>
+    </div>
+    <dl class="hero__stats" aria-label="모임 현황">
+      <div class="stat">
+        <dt>누적 모임</dt>
+        <dd>{{ site.data.meetups | size }}회</dd>
+      </div>
+      <div class="stat">
+        <dt>운영 시작</dt>
+        <dd>2017</dd>
+      </div>
+      <div class="stat">
+        <dt>주요 채널</dt>
+        <dd>Google Groups</dd>
+      </div>
+    </dl>
+  </div>
+</section>
 
-## 관련 링크
+<!-- ========================= NEXT MEETUP ======================== -->
+{%- if next_meetup -%}
+<section class="section" id="next-meetup" aria-labelledby="next-meetup-title">
+  <div class="container">
+    <header class="section__head">
+      <p class="section__kicker">Next meetup</p>
+      <h2 class="section__title" id="next-meetup-title">다가오는 모임</h2>
+      <p class="section__sub">발표자와 주제가 확정되었습니다. 자리가 한정되어 있으니 사전에 참가 신청 부탁드립니다.</p>
+    </header>
 
-* 모임 메일링 리스트: [Korea Linux Kernel Developers Meetup](https://groups.google.com/forum/?hl=ko#!forum/korea-linux-kernel-developers-meetup)
-* 모임 인스타그램: [인스타그램](https://www.instagram.com/kernel.dev.ko/?hl=ko)
-* 모임 유튜브(다시보기): [유튜브](http://www.youtube.com/@kernel-dev-ko)
+    <article class="meetup-card">
+      <div class="meetup-card__head">
+        <div>
+          <p class="meetup-card__index">#{{ next_meetup.number | prepend: "0" | slice: -2, 2 }}</p>
+          <h3 class="meetup-card__title">
+            <a href="{{ next_meetup.slug | append: '/' | relative_url }}">{{ next_meetup.title }}</a>
+          </h3>
+        </div>
+        <span class="badge badge--live">예정</span>
+      </div>
 
-## 새소식
-* [제10회 한국 리눅스 커널 개발자 모임](10th/) 발표자와 주제가 확정되었습니다.<br>
-[\[참가신청링크\]](https://event-us.kr/klkd/event/110462) 를 통해서 참가 신청을 받고 있습니다.<br>
-* [제10회 한국 리눅스 커널 개발자 모임](10th/) 을 오는 9월 18일(목)에 개최 합니다.<br>
-([발표자 모집](10th/presentation) 은 모임 메일링 리스트를 통하여 공지하였습니다).<br>
+      <dl class="meetup-card__meta">
+        <div><dt>날짜</dt><dd><time datetime="{{ next_meetup.date | date: '%Y-%m-%d' }}">{{ next_meetup.date | date: "%Y년 %-m월 %-d일" }}</time></dd></div>
+        {% if next_meetup.time %}<div><dt>시간</dt><dd>{{ next_meetup.time }}</dd></div>{% endif %}
+        {% if next_meetup.venue %}<div><dt>장소</dt><dd>{{ next_meetup.venue }}</dd></div>{% endif %}
+      </dl>
 
-## 지난소식
-<details>
-<summary>지난소식 보기</summary>
-<ul>
-<li> 2024-08-05<br>
-<a href="9th/">제9회 한국 리눅스 커널 개발자 모임</a> 발표자와 주제가 확정되었습니다. <a href="https://festa.io/events/5756">festa</a>를 통해 참가 신청을 받고 있습니다.
-</li>
+      <div class="meetup-card__actions">
+        {% if next_meetup.rsvp %}<a class="btn btn--primary" href="{{ next_meetup.rsvp.url }}" rel="noopener">{{ next_meetup.rsvp.label }} →</a>{% endif %}
+        <a class="btn btn--ghost" href="{{ next_meetup.slug | append: '/' | relative_url }}">전체 일정 보기</a>
+        <a class="btn btn--ghost" href="{{ next_meetup.slug | append: '/presentation' | relative_url }}">발표자 모집 안내</a>
+      </div>
 
-<li> 2024-07-11<br>
-<a href="9th/">제9회 한국 리눅스 커널 개발자 모임</a> 을 오는 9월 5일(목)에 개최 합니다.<br>
-(<a href="9th/presentation">발표자 모집</a>은 모임 메일링 리스트를 통하여 공지하였습니다.)
-</li>
+      {% if next_meetup.sponsors %}
+      <div class="meetup-card__sponsors">
+        <p class="meetup-card__sponsors-label">후원</p>
+        <ul class="sponsor-list">
+          {% for s in next_meetup.sponsors %}
+            <li><a href="{{ s.url }}" rel="noopener">{{ s.name }}</a><span class="sponsor-list__what"> · {{ s.contribution }}</span></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </article>
+  </div>
+</section>
+{%- endif -%}
 
-<li> 2023-08-17<br>
-<a href="8th/">제8회 한국 리눅스 커널 개발자 모임</a> 발표자와 주제가 확정되었습니다. <a href="https://festa.io/events/3901">festa</a>를 통해 참가 신청을 받고 있습니다.
-</li>
+<!-- ======================= COMMUNITY LINKS ====================== -->
+<section class="section section--alt" id="community" aria-labelledby="community-title">
+  <div class="container">
+    <header class="section__head">
+      <p class="section__kicker">Community</p>
+      <h2 class="section__title" id="community-title">커뮤니티 채널</h2>
+      <p class="section__sub">모임 공지와 자료가 공유되는 공식 채널입니다.</p>
+    </header>
 
-<li> 2023-07-11<br>
-<a href="8th/">제8회 한국 리눅스 커널 개발자 모임</a> 모임을 9월 14일에 개최 합니다.<br>
-(발표자 모집은 모임 메일링 리스트를 통하여 7월 11일 공지할 예정입니다)
-</li>
+    <ul class="card-grid">
+      {% for link in site.data.links.community %}
+        <li>
+          <a class="link-card link-card--{{ link.type }}" href="{{ link.url }}" rel="noopener">
+            <p class="link-card__type">{{ link.name }}</p>
+            <p class="link-card__handle">{{ link.handle }}</p>
+            <p class="link-card__desc">{{ link.description }}</p>
+            <span class="link-card__arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
 
-<li> 2022-08-26<br>
-<a href="7th/">제7회 한국 리눅스 커널 개발자 모임</a> 발표자와 주제가 확정되었습니다. <a href="https://festa.io/events/2557">festa</a>를 통해 참가 신청을 받고 있습니다.
-</li>
+<!-- ========================= LATEST NEWS ======================== -->
+<section class="section" id="news" aria-labelledby="news-title">
+  <div class="container">
+    <header class="section__head">
+      <p class="section__kicker">News</p>
+      <h2 class="section__title" id="news-title">새소식</h2>
+      <p class="section__sub">최근 공지 위주로 보여드립니다. 더 이전 소식은 펼쳐서 확인할 수 있습니다.</p>
+    </header>
 
-<li> 2022-07-18<br>
-<a href="7th/">제7회 한국 리눅스 커널 개발자 모임</a> 모임을 9월 29일에 재개최 합니다. (발표자 모집은 7월 21일 공지 예정)
-</li>
+    <ol class="news-list">
+      {% for item in latest_news %}
+        <li class="news-item">
+          <time class="news-item__date" datetime="{{ item.date }}">{{ item.date | date: "%Y.%m.%d" }}</time>
+          <div class="news-item__body">
+            <h3 class="news-item__title">{{ item.title }}</h3>
+            <div class="news-item__text">{{ item.body | markdownify }}</div>
+            {% if item.link %}
+              <a class="btn btn--small" href="{{ item.link.url }}" rel="noopener">{{ item.link.label }} →</a>
+            {% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
 
-<li> 2020-03-23<br>
-<a href="7th/">제7회 한국 리눅스 커널 개발자 모임</a> 모임을 하반기로 연기합니다. 날짜는 추후에 결정하겠습니다.
-</li>
+    {% if older_news.size > 0 %}
+    <details class="news-archive">
+      <summary>지난 소식 {{ older_news.size }}건 더 보기</summary>
+      <ol class="news-list news-list--compact">
+        {% for item in older_news %}
+          <li class="news-item">
+            <time class="news-item__date" datetime="{{ item.date }}">{{ item.date | date: "%Y.%m.%d" }}</time>
+            <div class="news-item__body">
+              <h3 class="news-item__title">{{ item.title }}</h3>
+              <div class="news-item__text">{{ item.body | markdownify }}</div>
+            </div>
+          </li>
+        {% endfor %}
+      </ol>
+    </details>
+    {% endif %}
+  </div>
+</section>
 
-<li> 2020-02-14<br>
-<a href="7th/">제7회 한국 리눅스 커널 개발자 모임</a> 모임을 연기합니다. 5월 28일 경으로 계획하고 있습니다.
-</li>
+<!-- ========================= PAST MEETUPS ======================== -->
+<section class="section section--alt" id="past-meetups" aria-labelledby="past-meetups-title">
+  <div class="container">
+    <header class="section__head">
+      <p class="section__kicker">Archive</p>
+      <h2 class="section__title" id="past-meetups-title">지난 모임</h2>
+      <p class="section__sub">회차별 발표자료와 일정을 확인할 수 있습니다.</p>
+    </header>
 
-<li> 2020-01-28<br>
-<a href="7th/">제7회 한국 리눅스 커널 개발자 모임</a> 행사를 위한 발표자 모집을 시작합니다.
-</li>
+    <ol class="timeline" reversed>
+      {% for m in past_meetups %}
+        <li class="timeline__item">
+          <span class="timeline__marker" aria-hidden="true"></span>
+          <p class="timeline__date">
+            {% if m.date_display %}{{ m.date_display }}{% else %}<time datetime="{{ m.date | date: '%Y-%m-%d' }}">{{ m.date | date: "%Y.%m.%d" }}</time>{% endif %}
+          </p>
+          <div class="timeline__body">
+            <h3 class="timeline__title">
+              {% if m.external %}
+                <a href="{{ m.slug }}" rel="noopener">{{ m.title }} ↗</a>
+              {% else %}
+                <a href="{{ m.slug | append: '/' | relative_url }}">{{ m.title }}</a>
+              {% endif %}
+            </h3>
+            {% if m.venue %}<p class="timeline__venue">{{ m.venue }}</p>{% endif %}
+          </div>
+          <span class="timeline__number">#{{ m.number | prepend: "0" | slice: -2, 2 }}</span>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
 
-<li> 2019-09-07<br>
-<a href="6th/">제6회 한국 리눅스 커널 개발자 모임</a> 발표자와 주제가 확정되었습니다. <a href="https://onoffmix.com/event/196640">onoffmix</a>를 통해 참가 신청을 받고 있습니다.
-</li>
+<!-- ============================ CONTACT ========================== -->
+<section class="section" id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <header class="section__head">
+      <p class="section__kicker">Contact</p>
+      <h2 class="section__title" id="contact-title">의견 보내기</h2>
+      <p class="section__sub">발표 제안, 후원, 공동 운영 문의 등 모든 의견을 환영합니다.</p>
+    </header>
 
-<li> 2019-09-02<br>
-<a href="6th/">제6회 한국 리눅스 커널 개발자 모임</a> 행사를 위한 발표자 모집을 시작합니다.
-</li>
-
-<li> 2019-05-24<br>
-단체 대화 채널이 필요하다고 생각하시면 kernel.dev.ko@gmail.com으로 연락 부탁합니다. 검토 후에 개설 및 공지를 하겠습니다.
-</li>
-
-<li> 2019-05-24<br>
-<a href="5th/">제5회 한국 리눅스 커널 개발자 모임</a> 행사를 성공적으로 마쳤습니다. 참여해주신 모든 분들께 감사드립니다.
-</li>
-
-<li> 2019-05-24<br>
-<a href="5th/">제5회 한국 리눅스 커널 개발자 모임</a> session 02의 발표자를 업로드 했습니다.
-</li>
-
-<li> 2019-05-23<br>
-<a href="5th/">제5회 한국 리눅스 커널 개발자 모임</a>의 질의응답을 위한 게시판을 생성했습니다. [Q&A 게시판]
-</li>
-
-<li> 2019-05-03<br>
-<a href="5th/">제5회 한국 리눅스 커널 개발자 모임</a> 행사 장소 및 발표 주제가 확정되었습니다. <a href="https://www.onoffmix.com/event/178349">onoffmix</a>를 통해 참가 신청을 받고 있습니다.
-</li>
-
-<li> 2019-04-04<br>
-<a href="5th/">제5회 한국 리눅스 커널 개발자 모임</a> 행사를 위한 발표자 모집을 시작합니다.
-</li>
-
-<li> 2018-11-06 (11-07, 11-08 추가 업데이트)<br>
-<a href="4th/">제4회 한국 리눅스 커널 개발자 모임</a> 발표 자료를 업로드 했습니다.
-</li>
-
-<li> 2018-11-05<br>
-<a href="4th/">제4회 한국 리눅스 커널 개발자 모임</a> 발표 일정(lightning-01)이 변경되었습니다.
-</li>
-
-<li> 2018-10-15<br>
-<a href="4th/">제4회 한국 리눅스 커널 개발자 모임</a> 발표자와 발표 주제가 확정되었습니다. <a href="https://onoffmix.com/event/155146">onoffmix</a>를 통해 참가 신청을 받고 있습니다.
-</li>
-
-<li> 2018-09-18<br>
-<a href="4th/">제4회 한국 리눅스 커널 개발자 모임</a> 행사 장소가 확정되었습니다.
-</li>
-
-<li> 2018-09-11<br>
-<a href="4th/">제4회 한국 리눅스 커널 개발자 모임</a> 행사를 위한 발표자 모집을 시작합니다.
-</li>
-
-<li> 2018-04-19<br>
-<a href="3rd/">제3회 한국 리눅스 커널 개발자 모임</a> 행사를 성공적으로 마쳤습니다. 참여해주신 모든 분들께 감사드립니다.
-</li>
-
-<li> 2018-03-29<br>
-제3회 한국 리눅스 커널 개발자 모임 장소가 <a href="http://daechi.spaceshare.kr">스페이스쉐어 대치센터</a>로 변경되었습니다. 장소를 다시 한번 확인해 주세요.
-</li>
-
-<li> 2018-03-20<br>
-제3회 한국 리눅스 커널 개발자 모임의 발표자가 선정되었습니다. 자세한 사항은 각 페이지를 참조해 주세요.
-</li>
-
-<li> 2018-02-22<br>
-<a href="https://kernel-dev-ko.github.io">한국 커널 개발자 모임 홈페이지</a> 생성 및 제3회 한국 리눅스 커널 개발자 모임 홍보 시작
-</li>
-
-</ul>
-</details>
-
-## 의견
-모임에 관한 의견은 언제든 [kernel.dev.ko@gmail.com](mailto:kernel.dev.ko@gmail.com)으로 메일을 보내주세요. 어떠한 의견이라도 환영합니다.
-
-## 이전 모임 정보
-* [9회 모임](9th/)
-* [8회 모임](8th/)
-* [7회 모임](7th/)
-* [6회 모임](6th/)
-* [5회 모임](5th/)
-* [4회 모임](4th/)
-* [3회 모임](3rd/)
-* [2회 모임](2nd/)
-* [1회 모임](https://onoffmix.com/event/83625)
+    <div class="contact-card">
+      <p class="contact-card__label">이메일</p>
+      <p class="contact-card__value">
+        <a href="mailto:{{ site.data.links.contact.email }}">{{ site.data.links.contact.email }}</a>
+      </p>
+      <p class="contact-card__hint">
+        보내주신 메일은 운영진이 확인 후 답신드립니다.
+        모든 공식 공지는 <a href="{{ site.data.links.community[0].url }}" rel="noopener">메일링 리스트</a>로 가장 먼저 발송됩니다.
+      </p>
+    </div>
+  </div>
+</section>

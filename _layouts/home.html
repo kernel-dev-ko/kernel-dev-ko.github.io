@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale | default: 'ko' }}" data-theme="dark">
+  {% include head.html %}
+  <body class="is-home">
+    <a class="skip-link" href="#main">본문 바로가기</a>
+    {% include page-header.html %}
+
+    <main id="main" class="page page--home">
+      {{ content }}
+    </main>
+
+    {% include page-footer.html %}
+  </body>
+</html>

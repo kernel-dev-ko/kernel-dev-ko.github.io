@@ -1,8 +1,18 @@
-<a href="{{ '/' | relative_url }}" style="color:inherit; text-decoration:none; display:block;">
-    <section class="page-header" style="cursor:pointer;">
-        <h1 class="project-name">
-            {{ site.title }}
-        </h1>
-        <h2 class="project-tagline">{{ site.description }}</h2>
-    </section>
-</a>
+<header class="site-header" role="banner">
+  <div class="container site-header__inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} 홈으로">
+      <span class="site-brand__mark" aria-hidden="true">
+        <span class="site-brand__bracket">[</span>kernel<span class="site-brand__sep">·</span>dev<span class="site-brand__sep">·</span>ko<span class="site-brand__bracket">]</span>
+      </span>
+      <span class="site-brand__name">한국 리눅스 커널 개발자 모임</span>
+    </a>
+
+    <nav class="site-nav" aria-label="주요 메뉴">
+      <a href="{{ '/#next-meetup' | relative_url }}">다가오는 모임</a>
+      <a href="{{ '/#community' | relative_url }}">커뮤니티</a>
+      <a href="{{ '/#news' | relative_url }}">새소식</a>
+      <a href="{{ '/#past-meetups' | relative_url }}">지난 모임</a>
+      <a href="{{ '/#contact' | relative_url }}">의견</a>
+    </nav>
+  </div>
+</header>

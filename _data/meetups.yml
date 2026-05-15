@@ -1,0 +1,90 @@
+# 역대 모임 정보
+# 최신 회차를 위쪽에 둡니다.
+# 항목 형식:
+#   number: 회차 (정수)
+#   slug:   디렉토리 이름 / 링크 (예: 10th)
+#   title:  표시용 제목
+#   date:   YYYY-MM-DD (확정된 날짜) 또는 yyyy
+#   status: upcoming | past
+#   venue:  장소 (선택)
+#   rsvp:   참가신청 url (선택)
+#   topics: 발표 주제 요약 (선택, 배열)
+
+- number: 10
+  slug: 10th
+  title: 제10회 한국 리눅스 커널 개발자 모임
+  date: 2025-09-18
+  status: upcoming
+  venue: 서울시 강남구 테헤란로1길 10 세경빌딩 6층 공간더하기 (강남역 11번 출구)
+  time: 오후 7시 ~ 9시 50분
+  rsvp:
+    url: https://event-us.kr/klkd/event/110462
+    label: event-us 참가신청
+  sponsors:
+    - { name: "알티스트(RTst)",            url: "https://www.rtst.co.kr/",                        contribution: "간식 박스" }
+    - { name: "SK하이닉스(SK hynix)",       url: "https://www.skhynix.com/",                      contribution: "발표자 선물" }
+    - { name: "LG전자(LG Electronics)",    url: "https://www.lge.co.kr/company/info/mission",    contribution: "장소 대여비 및 네트워킹 간식" }
+
+- number: 9
+  slug: 9th
+  title: 제9회 한국 리눅스 커널 개발자 모임
+  date: 2024-09-05
+  status: past
+  venue: 세경빌딩 6층 공간더하기 (강남)
+
+- number: 8
+  slug: 8th
+  title: 제8회 한국 리눅스 커널 개발자 모임
+  date: 2023-09-14
+  status: past
+  venue: 세경빌딩 6층 공간더하기 (강남)
+
+- number: 7
+  slug: 7th
+  title: 제7회 한국 리눅스 커널 개발자 모임
+  date: 2022-09-29
+  status: past
+  venue: 세경빌딩 6층 Space 14 (강남)
+
+- number: 6
+  slug: 6th
+  title: 제6회 한국 리눅스 커널 개발자 모임
+  date: 2019-11-07
+  status: past
+  venue: 세경빌딩 6층 Space 14 (강남)
+
+- number: 5
+  slug: 5th
+  title: 제5회 한국 리눅스 커널 개발자 모임
+  date: 2019-05-23
+  status: past
+  venue: 세경빌딩 6층 Space 14 (강남)
+
+- number: 4
+  slug: 4th
+  title: 제4회 한국 리눅스 커널 개발자 모임
+  date: 2018-11-08
+  status: past
+  venue: 아남타워빌딩 7층 KOSSLAB 대강의장 (강남)
+
+- number: 3
+  slug: 3rd
+  title: 제3회 한국 리눅스 커널 개발자 모임
+  date: 2018-04-19
+  status: past
+  venue: 스페이스쉐어 대치센터 5층 펜타곤홀 (선릉)
+
+- number: 2
+  slug: 2nd
+  title: 제2회 한국 리눅스 커널 개발자 모임
+  date: 2017-07-06
+  status: past
+  venue: D.CAMP 6층 다목적홀
+
+- number: 1
+  slug: https://onoffmix.com/event/83625
+  title: 제1회 한국 리눅스 커널 개발자 모임
+  date: 2017-01-01
+  date_display: "2017"
+  status: past
+  external: true
