@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # Linux Kernel Hacking (From user to root privileges)

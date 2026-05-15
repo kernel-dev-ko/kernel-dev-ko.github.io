@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # 커널 크래시 디버깅 방법 소개

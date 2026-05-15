@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # 구글 클라우드 서버의 커널을 해킹해 상금을 받아보자 (Google kernelCTF)

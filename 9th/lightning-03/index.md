@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # Recent Android kernel trend for device longevity

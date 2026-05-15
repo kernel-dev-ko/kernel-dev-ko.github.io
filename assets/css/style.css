@@ -952,12 +952,6 @@ body::before {
   background: var(--color-surface);
 }
 
-/* Disqus widget on dark bg */
-#disqus_thread {
-  margin-top: var(--space-7);
-  padding-top: var(--space-5);
-  border-top: 1px solid var(--color-border-soft);
-}
 
 /* ---------------------- Syntax highlight (rouge) ------------------- */
 .highlight { background: var(--color-bg-elev); }

@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # 커널 엔지니어가 회사 밖에서 먹고 사는 이야기

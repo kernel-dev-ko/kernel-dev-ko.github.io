@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # GKI - ARM도 하나의 커널로

@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # NVM(Non-volatile Memory)와 리눅스 커널

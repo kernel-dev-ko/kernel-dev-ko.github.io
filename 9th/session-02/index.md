@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # LUF(Lazy Unmap Flush) 메커니즘 소개

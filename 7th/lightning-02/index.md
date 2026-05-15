@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # 초보자가 말하는, 초보자를 위한 커널 입문 가이드

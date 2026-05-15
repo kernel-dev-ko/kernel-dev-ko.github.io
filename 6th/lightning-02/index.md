@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # BPF 소개 및 적용 사례

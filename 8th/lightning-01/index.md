@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # Linux & Xen For Functional Safety & Security Critical System (feat: Automotive)

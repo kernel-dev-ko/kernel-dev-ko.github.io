@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # USBNET 프레임워크 최적화 리뷰

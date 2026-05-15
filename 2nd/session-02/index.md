@@ -1,5 +1,4 @@
 ---
-comments: true
 ---
 
 # SMB Network Filesystem : Introduce new In-Kernel SMB Server

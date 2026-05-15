@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # Android 및 kernel 7년 변천사

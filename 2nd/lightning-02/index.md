@@ -1,5 +1,4 @@
 ---
-comments: true
 ---
 
 # Brief introduction to kernel selftest

@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # Linux Kernel Memory Model

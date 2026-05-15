@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # eBPF 를 활용한 memory leak sanitizer

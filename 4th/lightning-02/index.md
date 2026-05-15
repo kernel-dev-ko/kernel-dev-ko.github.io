@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # 리눅스 인사이드 활동 및 리눅스 표준화 동향

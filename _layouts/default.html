@@ -11,19 +11,6 @@
           <p class="page__back"><a href="{{ '/' | relative_url }}">← 한국 리눅스 커널 개발자 모임</a></p>
         {% endif %}
         {{ content }}
-
-        {% if page.comments %}
-          <div id="disqus_thread"></div>
-          <script>
-            (function() {
-              var d = document, s = d.createElement('script');
-              s.src = 'https://https-kernel-dev-ko-github-io.disqus.com/embed.js';
-              s.setAttribute('data-timestamp', +new Date());
-              (d.head || d.body).appendChild(s);
-            })();
-          </script>
-          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-        {% endif %}
       </article>
     </main>
 

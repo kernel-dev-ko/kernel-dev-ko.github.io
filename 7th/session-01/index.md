@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # Dude, Do you even audit?

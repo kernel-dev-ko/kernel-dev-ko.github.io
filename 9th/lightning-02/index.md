@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # Realtime Application 성능 최적화를 위한 RT-Linux 환경 구성

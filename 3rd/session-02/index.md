@@ -1,5 +1,4 @@
 ---
-comments: true
 ---
 
 # RISC-V 아키텍쳐 소스 분석

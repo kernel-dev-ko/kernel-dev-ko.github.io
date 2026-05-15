@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 # Quick boot (deferred initcall)
