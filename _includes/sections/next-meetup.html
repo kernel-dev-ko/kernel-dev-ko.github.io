@@ -1,0 +1,71 @@
+{%- assign next_meetup = nil -%}
+{%- for m in site.data.meetups -%}
+  {%- if m.status == 'upcoming' and next_meetup == nil -%}
+    {%- assign next_meetup = m -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if next_meetup -%}
+<section class="section" id="next-meetup" aria-labelledby="next-meetup-title">
+  <div class="container">
+    <header class="section__head">
+      <p class="section__kicker">Next meetup</p>
+      <h2 class="section__title" id="next-meetup-title">다가오는 모임</h2>
+      <p class="section__sub">발표자와 주제가 확정되었습니다. 자리가 한정되어 있으니 사전에 참가 신청 부탁드립니다.</p>
+    </header>
+
+    <article class="meetup-card">
+      <div class="meetup-card__head">
+        <div>
+          <p class="meetup-card__index">#{{ next_meetup.number | prepend: "0" | slice: -2, 2 }}</p>
+          <h3 class="meetup-card__title">
+            <a href="{{ next_meetup.slug | append: '/' | relative_url }}">{{ next_meetup.title }}</a>
+          </h3>
+        </div>
+        <span class="badge badge--live">예정</span>
+      </div>
+
+      <dl class="meetup-card__meta">
+        <div>
+          <dt>날짜</dt>
+          <dd><time datetime="{{ next_meetup.date | date: '%Y-%m-%d' }}">{{ next_meetup.date | date: "%Y년 %-m월 %-d일" }}</time></dd>
+        </div>
+        {%- if next_meetup.time %}
+        <div>
+          <dt>시간</dt>
+          <dd>{{ next_meetup.time }}</dd>
+        </div>
+        {%- endif %}
+        {%- if next_meetup.venue %}
+        <div>
+          <dt>장소</dt>
+          <dd>{{ next_meetup.venue }}</dd>
+        </div>
+        {%- endif %}
+      </dl>
+
+      <div class="meetup-card__actions">
+        {%- if next_meetup.rsvp %}
+        <a class="btn btn--primary" href="{{ next_meetup.rsvp.url }}" rel="noopener">{{ next_meetup.rsvp.label }} →</a>
+        {%- endif %}
+        <a class="btn btn--ghost" href="{{ next_meetup.slug | append: '/' | relative_url }}">전체 일정 보기</a>
+        <a class="btn btn--ghost" href="{{ next_meetup.slug | append: '/presentation' | relative_url }}">발표자 모집 안내</a>
+      </div>
+
+      {%- if next_meetup.sponsors %}
+      <div class="meetup-card__sponsors">
+        <p class="meetup-card__sponsors-label">후원</p>
+        <ul class="sponsor-list">
+          {%- for s in next_meetup.sponsors %}
+          <li>
+            <a href="{{ s.url }}" rel="noopener">{{ s.name }}</a>
+            <span class="sponsor-list__what"> · {{ s.contribution }}</span>
+          </li>
+          {%- endfor %}
+        </ul>
+      </div>
+      {%- endif %}
+    </article>
+  </div>
+</section>
+{%- endif -%}

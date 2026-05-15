@@ -1,0 +1,45 @@
+{%- assign news_sorted = site.data.news | sort: 'date' | reverse -%}
+{%- assign latest_news = news_sorted | slice: 0, 3 -%}
+{%- assign older_news  = news_sorted | slice: 3, 100 -%}
+
+<section class="section" id="news" aria-labelledby="news-title">
+  <div class="container">
+    <header class="section__head">
+      <p class="section__kicker">News</p>
+      <h2 class="section__title" id="news-title">새소식</h2>
+      <p class="section__sub">최근 공지 위주로 보여드립니다. 더 이전 소식은 펼쳐서 확인할 수 있습니다.</p>
+    </header>
+
+    <ol class="news-list">
+      {%- for item in latest_news %}
+      <li class="news-item">
+        <time class="news-item__date" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%Y.%m.%d" }}</time>
+        <div class="news-item__body">
+          <h3 class="news-item__title">{{ item.title }}</h3>
+          <div class="news-item__text">{{ item.body | markdownify }}</div>
+          {%- if item.link %}
+          <a class="btn btn--small" href="{{ item.link.url }}" rel="noopener">{{ item.link.label }} →</a>
+          {%- endif %}
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+
+    {%- if older_news.size > 0 %}
+    <details class="news-archive">
+      <summary>지난 소식 {{ older_news.size }}건 더 보기</summary>
+      <ol class="news-list news-list--compact">
+        {%- for item in older_news %}
+        <li class="news-item">
+          <time class="news-item__date" datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%Y.%m.%d" }}</time>
+          <div class="news-item__body">
+            <h3 class="news-item__title">{{ item.title }}</h3>
+            <div class="news-item__text">{{ item.body | markdownify }}</div>
+          </div>
+        </li>
+        {%- endfor %}
+      </ol>
+    </details>
+    {%- endif %}
+  </div>
+</section>

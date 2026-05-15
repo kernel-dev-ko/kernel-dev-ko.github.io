@@ -1,0 +1,22 @@
+<section class="section section--alt" id="community" aria-labelledby="community-title">
+  <div class="container">
+    <header class="section__head">
+      <p class="section__kicker">Community</p>
+      <h2 class="section__title" id="community-title">커뮤니티 채널</h2>
+      <p class="section__sub">모임 공지와 자료가 공유되는 공식 채널입니다.</p>
+    </header>
+
+    <ul class="card-grid">
+      {%- for link in site.data.links.community %}
+      <li>
+        <a class="link-card link-card--{{ link.type }}" href="{{ link.url }}" rel="noopener">
+          <p class="link-card__type">{{ link.name }}</p>
+          <p class="link-card__handle">{{ link.handle }}</p>
+          <p class="link-card__desc">{{ link.description }}</p>
+          <span class="link-card__arrow" aria-hidden="true">→</span>
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

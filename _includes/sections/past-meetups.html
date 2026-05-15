@@ -1,0 +1,33 @@
+{%- assign past_meetups = site.data.meetups | where: "status", "past" -%}
+
+<section class="section section--alt" id="past-meetups" aria-labelledby="past-meetups-title">
+  <div class="container">
+    <header class="section__head">
+      <p class="section__kicker">Archive</p>
+      <h2 class="section__title" id="past-meetups-title">지난 모임</h2>
+      <p class="section__sub">회차별 발표자료와 일정을 확인할 수 있습니다.</p>
+    </header>
+
+    <ol class="timeline" reversed>
+      {%- for m in past_meetups %}
+      <li class="timeline__item">
+        <p class="timeline__date">
+          {%- if m.date_display %}{{ m.date_display }}{% else %}<time datetime="{{ m.date | date: '%Y-%m-%d' }}">{{ m.date | date: "%Y.%m.%d" }}</time>{% endif -%}
+        </p>
+        <span class="timeline__marker" aria-hidden="true"></span>
+        <div class="timeline__body">
+          <h3 class="timeline__title">
+            {%- if m.external %}
+            <a href="{{ m.slug }}" rel="noopener">{{ m.title }} ↗</a>
+            {%- else %}
+            <a href="{{ m.slug | append: '/' | relative_url }}">{{ m.title }}</a>
+            {%- endif %}
+          </h3>
+          {%- if m.venue %}<p class="timeline__venue">{{ m.venue }}</p>{% endif %}
+        </div>
+        <span class="timeline__number">#{{ m.number | prepend: "0" | slice: -2, 2 }}</span>
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
