@@ -6,8 +6,8 @@ description: "리눅스 커널에 관심을 가지고 연구/개발을 진행하
 ---
 
 {% include sections/hero.html %}
-{% include sections/next-meetup.html %}
-{% include sections/community.html %}
 {% include sections/news.html %}
+{% include sections/next-meetup.html %}
 {% include sections/past-meetups.html %}
+{% include sections/community.html %}
 {% include sections/contact.html %}
