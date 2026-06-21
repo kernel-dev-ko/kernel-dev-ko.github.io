@@ -21,7 +21,7 @@ permalink: /9th/
 | 20:05 | break time | | |
 | 20:15 | main topic | [LUF(Lazy Unmap Flush) 메커니즘 소개](session-02) | 박병철 |
 | 20:45 | lightning talk | [Recent Android kernel trend for device longevity](lightning-03) | 남영민 |
-| 21:00 | networking time (다과) | |
+| 21:00 | networking<br> time (다과) | |
 
 발표가 끝나고 오후 9시 50분까지 간단한 다과를 하면서 참석자들이
 자유롭게 대화를 나눠보는 시간을 마련했습니다.

@@ -24,7 +24,7 @@ permalink: 10th/
 | 20:40 | Lightning | [운영체제의 기본 옵션에는 컨테이너가 있어요](lightning-01/) | 차주형 |
 | 20:46 | Lightning | [리눅스 커널의 양자 컴퓨팅 시대에 맞는 암호(PQC) 대비](lightning-02/) | 이파란 |
 | 20:52 | Lightning | [Shallow dive into Linux kernel fuzzing with syzkaller](lightning-03/)| 장선우 |
-| 21:00 | networking time (다과) | |
+| 21:00 | networking<br> time (다과) | |
 
 발표가 끝나고 오후 9시 50분까지 간단한 다과를 하면서 참석자들이 자유롭게 대화를 나눠보는 시간을 마련할 예정입니다.
 

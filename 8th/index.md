@@ -21,7 +21,7 @@ permalink: /8th/
 | 20:00 | break time | | |
 | 20:10 | main topic | [Linux Kernel Hacking (From user to root privileges)](session-02) | 김현우 |
 | 20:45 | lightning talk | [USBNET 프레임워크 최적화 리뷰](lightning-03) | 안이수 |
-| 21:00 | networking time (다과) | |
+| 21:00 | networking<br> time (다과) | |
 
 발표가 끝나고 오후 9시 50분까지 간단한 다과를 하면서 참석자들이
 자유롭게 대화를 나눠보는 시간을 마련했습니다.
