@@ -19,7 +19,7 @@
   time: 오후 7시 ~ 9시 50분
   rsvp:
     url: https://event-us.kr/klkd/event/110462
-    label: event-us 참가신청
+    label: 참가신청
   sponsors:
     - { name: "알티스트(RTst)",            url: "https://www.rtst.co.kr/",                        contribution: "간식 박스" }
     - { name: "SK하이닉스(SK hynix)",       url: "https://www.skhynix.com/",                      contribution: "발표자 선물" }
