@@ -1,0 +1,9 @@
+<script>
+  // 외부 링크(YouTube 등 다른 도메인)는 새 탭에서 열기 — 마크다운 본문으로 생성된 링크 포함
+  document.querySelectorAll('a[href^="http"]').forEach(function (a) {
+    if (a.hostname !== location.hostname) {
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+    }
+  });
+</script>

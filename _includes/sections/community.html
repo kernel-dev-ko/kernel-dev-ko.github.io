@@ -9,7 +9,7 @@
     <ul class="card-grid">
       {%- for link in site.data.links.community %}
       <li>
-        <a class="link-card link-card--{{ link.type }}" href="{{ link.url }}" rel="noopener">
+        <a class="link-card link-card--{{ link.type }}" href="{{ link.url }}" target="_blank" rel="noopener">
           <p class="link-card__type">{{ link.name }}</p>
           <p class="link-card__handle">{{ link.handle }}</p>
           <p class="link-card__desc">{{ link.description }}</p>

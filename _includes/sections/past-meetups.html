@@ -18,7 +18,7 @@
         <div class="timeline__body">
           <h3 class="timeline__title">
             {%- if m.external %}
-            <a href="{{ m.slug }}" rel="noopener">{{ m.title }} ↗</a>
+            <a href="{{ m.slug }}" target="_blank" rel="noopener">{{ m.title }} ↗</a>
             {%- else %}
             <a href="{{ m.slug | append: '/' | relative_url }}">{{ m.title }}</a>
             {%- endif %}

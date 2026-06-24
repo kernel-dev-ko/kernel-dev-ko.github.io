@@ -18,7 +18,7 @@
           <h3 class="news-item__title">{{ item.title }}</h3>
           <div class="news-item__text">{{ item.body | markdownify }}</div>
           {%- if item.link %}
-          <a class="btn btn--small" href="{{ item.link.url }}" rel="noopener">{{ item.link.label }} →</a>
+          <a class="btn btn--small" href="{{ item.link.url }}" target="_blank" rel="noopener">{{ item.link.label }} →</a>
           {%- endif %}
         </div>
       </li>

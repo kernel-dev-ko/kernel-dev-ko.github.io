@@ -46,7 +46,7 @@
 
       <div class="meetup-card__actions">
         {%- if next_meetup.rsvp %}
-        <a class="btn btn--primary" href="{{ next_meetup.rsvp.url }}" rel="noopener">{{ next_meetup.rsvp.label }} →</a>
+        <a class="btn btn--primary" href="{{ next_meetup.rsvp.url }}" target="_blank" rel="noopener">{{ next_meetup.rsvp.label }} →</a>
         {%- endif %}
         <a class="btn btn--ghost" href="{{ next_meetup.slug | append: '/' | relative_url }}">전체 일정 보기</a>
         <a class="btn btn--ghost" href="{{ next_meetup.slug | append: '/presentation' | relative_url }}">발표자 모집 안내</a>
@@ -58,7 +58,7 @@
         <ul class="sponsor-list">
           {%- for s in next_meetup.sponsors %}
           <li>
-            <a href="{{ s.url }}" rel="noopener">{{ s.name }}</a>
+            <a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a>
             <span class="sponsor-list__what"> · {{ s.contribution }}</span>
           </li>
           {%- endfor %}
