@@ -491,13 +491,6 @@ body::before {
   letter-spacing: 0.15em;
   color: var(--color-accent);
 }
-.link-card__handle {
-  margin: 0 0 var(--space-3);
-  font-size: var(--fs-lg);
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  word-break: break-all;
-}
 .link-card__desc {
   margin: 0;
   color: var(--color-text-muted);

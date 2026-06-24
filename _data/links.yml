@@ -3,17 +3,14 @@
 
 community:
   - name: 메일링 리스트
-    handle: korea-linux-kernel-developers-meetup
     description: 모든 공식 공지가 가장 먼저 올라오는 채널입니다. Google Groups 기반
     url: https://groups.google.com/forum/?hl=ko#!forum/korea-linux-kernel-developers-meetup
     type: mailing-list
   - name: YouTube
-    handle: "@kernel-dev-ko"
     description: 지난 모임 발표 영상 다시 보기
     url: http://www.youtube.com/@kernel-dev-ko
     type: youtube
   - name: Instagram
-    handle: "@kernel.dev.ko"
     description: 모임 소식과 사진 기록
     url: https://www.instagram.com/kernel.dev.ko/?hl=ko
     type: instagram
