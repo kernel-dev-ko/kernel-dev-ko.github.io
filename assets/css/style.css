@@ -159,9 +159,9 @@ body::before {
 .site-brand__bracket { opacity: 0.7; }
 .site-brand__sep     { opacity: 0.5; padding-inline: 0.1em; }
 .site-brand__name {
-  font-weight: 600;
-  font-size: var(--fs-md);
-  letter-spacing: -0.005em;
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: -0.015em;
   color: #0f172a;
   transition: color 0.15s ease;
 }
