@@ -10,11 +10,18 @@
 #   rsvp:   참가신청 url (선택)
 #   topics: 발표 주제 요약 (선택, 배열)
 
+- number: 11
+  slug: 11th
+  title: 제11회 한국 리눅스 커널 개발자 모임
+  date: 2026-09-17
+  status: upcoming
+  time: 오후 7시 ~ 9시 50분
+
 - number: 10
   slug: 10th
   title: 제10회 한국 리눅스 커널 개발자 모임
   date: 2025-09-18
-  status: upcoming
+  status: past
   venue: 서울시 강남구 테헤란로1길 10 세경빌딩 6층 공간더하기 (강남역 11번 출구)
   time: 오후 7시 ~ 9시 50분
   rsvp:
