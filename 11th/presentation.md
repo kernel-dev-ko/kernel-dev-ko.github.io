@@ -18,13 +18,14 @@ permalink: /11th/presentation/
 1. 메일 제목: "제11회 발표 신청"
 2. 내용 포함:
    - 발표 주제
-   - 원하는 형식 (Main / Lightning Session)
+   - 원하는 형식 (Main / Lightning / Remote Session)
    - 발표자 자기소개
 3. 수신 메일: [kernel.dev.ko@gmail.com](mailto:kernel.dev.ko@gmail.com)
 
 ## 발표 형식
 - Main Session: 20분
 - Lightning Session: 5분 (간단한 기술소개, 개발 팁등 다양한 주제 가능)
+- Remote Session: 20분 (장소 제약 극복, 온라인 실시간 발표)
 
 ## 참고 사항
 - Lightning Session 발표자는 네트워크 시간에 질의응답 없이 발표만 진행합니다.
