@@ -160,7 +160,8 @@ body::before {
 .site-brand__sep     { opacity: 0.5; padding-inline: 0.1em; }
 .site-brand__name {
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  /* font-size: 1.25rem; */
   letter-spacing: -0.015em;
   color: #0f172a;
   transition: color 0.15s ease;
