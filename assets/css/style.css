@@ -260,6 +260,9 @@ body::before {
   background: linear-gradient(90deg, transparent, var(--color-border), transparent);
 }
 .hero__image {
+  width: min(100%, 56rem);
+  aspect-ratio: 16 / 9;
+  margin-inline: auto;
   margin-bottom: var(--space-7);
   overflow: hidden;
   border: 1px solid var(--color-border);
@@ -268,7 +271,9 @@ body::before {
 }
 .hero__image img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* ----------------------------- Buttons ---------------------------- */
