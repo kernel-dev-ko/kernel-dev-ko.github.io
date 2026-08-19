@@ -15,7 +15,15 @@
   title: 제11회 한국 리눅스 커널 개발자 모임
   date: 2026-09-17
   status: upcoming
+  venue: 서울시 강남구 테헤란로1길 10 세경빌딩 6층 공간더하기 (강남역 11번 출구)
   time: 오후 7시 ~ 9시 50분
+  rsvp:
+    url: https://event-us.kr/klkd/event/133026
+    label: 참가신청
+  sponsors:
+    - { name: "알티스트(RTst)",            url: "https://www.rtst.co.kr/",                        contribution: "간식 박스" }
+    - { name: "SK하이닉스(SK hynix)",       url: "https://www.skhynix.com/",                      contribution: "발표자 선물" }
+    - { name: "LG전자(LG Electronics)",    url: "https://www.lge.co.kr/company/info/mission",    contribution: "장소 대여비 및 네트워킹 간식" }
 
 - number: 10
   slug: 10th

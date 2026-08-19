@@ -259,47 +259,16 @@ body::before {
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--color-border), transparent);
 }
-/* .hero shares the .container element, so do NOT override its max-width
-   here — that would re-center the hero at a narrower width and shift its
-   left edge inward relative to every other section. Constrain only the
-   text-bearing children (hero__lede, hero__stats) instead. */
-.hero__title {
-  margin: 0 0 var(--space-5);
-  max-width: 22ch;
-  font-size: clamp(2.25rem, 6.5vw, 4rem);
-  font-weight: 700;
-  letter-spacing: -0.035em;
-  line-height: 1.05;
-  color: var(--color-text);
+.hero__image {
+  margin-bottom: var(--space-7);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
 }
-.hero__lede {
-  margin: 0 0 var(--space-6);
-  max-width: 44rem;
-  font-size: clamp(1.05rem, 1.8vw, 1.2rem);
-  color: var(--color-text-muted);
-  line-height: 1.7;
-}
-.hero__stats {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: var(--space-4);
-  margin: 0;
-  padding-top: var(--space-6);
-  border-top: 1px solid var(--color-border-soft);
-  max-width: 36rem;
-}
-.stat dt {
-  font-size: var(--fs-xs);
-  color: var(--color-text-dim);
-  font-family: var(--font-mono);
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-}
-.stat dd {
-  margin: 0.25rem 0 0;
-  font-size: var(--fs-xl);
-  font-weight: 600;
-  color: var(--color-text);
+.hero__image img {
+  width: 100%;
+  height: auto;
 }
 
 /* ----------------------------- Buttons ---------------------------- */
@@ -921,9 +890,17 @@ body::before {
 }
 /* 일정 표 컬럼 폭: 시간/형식/발표자는 좁고 고정, 제목이 남는 공간을 차지 */
 .container--prose table th:first-child,
-.container--prose table td:first-child   { white-space: nowrap; width: 1%; }
+.container--prose table td:first-child   {
+  white-space: nowrap;
+  width: 1%;
+  text-align: center;
+}
 .container--prose table th:nth-child(2),
-.container--prose table td:nth-child(2)  { white-space: nowrap; width: 1%; }
+.container--prose table td:nth-child(2)  {
+  white-space: nowrap;
+  width: 1%;
+  text-align: center;
+}
 .container--prose table th:last-child,
 .container--prose table td:last-child {
   white-space: nowrap;          /* 발표자 이름이 줄바꿈되지 않도록 */
