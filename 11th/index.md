@@ -15,14 +15,14 @@ permalink: 11th/
 | 시간 | 형식 | 제목 | 발표자 |
 |:---:|:---:|----|:---:|
 | 19:00 | | 모임 소개 | 김준수 |
-| 19:05 | Main | Kernel Report | 박병철 |
-| 19:25 | Main | Kernel Security Report | 김현우 |
-| 19:45 | Lightning | Boot-Time Storage I/O 최적화를 통한 부팅 시간 단축 | 김태현 |
-| 19:50 | Lightning | 논문으로 본 AI-OS Co-design 트렌드와 우리가 고민해볼 쟁점들 | 한정연 |
+| 19:05 | Main | [Kernel Report](main-01/) | 박병철 |
+| 19:25 | Main | [Kernel Security Report](main-02/) | 김현우 |
+| 19:45 | Lightning | [Boot-Time Storage I/O 최적화를 통한 부팅 시간 단축](lightning-01/) | 김태현 |
+| 19:50 | Lightning | [논문으로 본 AI-OS Co-design 트렌드와 우리가 고민해볼 쟁점들](lightning-02/) | 한정연 |
 | 19:55 | 휴식 | | |
-| 20:10 | Remote | BPF Memory Allocation | 유형곤 |
-| 20:30 | Main | GlusterFS in the Kernel - 서버 수정 없이 FUSE를 커널로 | 김지현 |
-| 20:50 | Main | The State of eBPF 2026: From Kernel Tooling to Strategic Platform | Bill Mulligan |
+| 20:10 | Main | [BPF Memory Allocation [REMOTE]](remote-01\) | 유형곤 |
+| 20:30 | Main | [GlusterFS in the Kernel - 서버 수정 없이 FUSE를 커널로](main-03/) | 김지현 |
+| 20:50 | Main | [The State of eBPF 2026: From Kernel Tooling to Strategic Platform](main-04/) | Bill Mulligan |
 | 21:10 | 네트워킹 | 다과 및 자유 대화 | |
 
 발표가 끝나고 오후 9시 50분까지 간단한 다과를 하면서 참석자들이 자유롭게 대화를 나눠보는 시간을 마련할 예정입니다.
