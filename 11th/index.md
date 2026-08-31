@@ -32,7 +32,7 @@ permalink: 11th/
 [https://event-us.kr/klkd/event/133026](https://event-us.kr/klkd/event/133026)<br>
 
 ## 약도
-![공간더하기 약도](../space_plus.gif)
+![한국컨퍼런스센터 약도](../conference_center.png)
 
 ## 후원
 * [알티스트(RTst)](https://www.rtst.co.kr/) : 간식 박스
