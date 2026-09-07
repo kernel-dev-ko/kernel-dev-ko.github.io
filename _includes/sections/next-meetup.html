@@ -39,7 +39,10 @@
         {%- if next_meetup.venue %}
         <div>
           <dt>장소</dt>
-          <dd>{{ next_meetup.venue }}</dd>
+          <dd>
+            {%- if next_meetup.venue_changed %}<span class="venue-change-notice">🐧 장소 변경</span><br>{% endif -%}
+            {{ next_meetup.venue }}
+          </dd>
         </div>
         {%- endif %}
       </dl>

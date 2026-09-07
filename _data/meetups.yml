@@ -7,6 +7,7 @@
 #   date:   YYYY-MM-DD (확정된 날짜) 또는 yyyy
 #   status: upcoming | past
 #   venue:  장소 (선택)
+#   venue_changed: 장소 변경 여부 (선택)
 #   rsvp:   참가신청 url (선택)
 #   topics: 발표 주제 요약 (선택, 배열)
 
@@ -15,6 +16,7 @@
   title: 제11회 한국 리눅스 커널 개발자 모임
   date: 2026-09-17
   status: upcoming
+  venue_changed: true
   venue: 서울시 서초구 강남대로53길 8, 마이워크스페이스타워 B2, 한국컨퍼런스센터 (강남역 5번 출구에서 도보 2분)
   time: 오후 7시 ~ 9시 50분
   rsvp:

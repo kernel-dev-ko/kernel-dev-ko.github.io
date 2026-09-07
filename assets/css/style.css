@@ -417,6 +417,17 @@ body::before {
   color: var(--color-text);
   font-size: var(--fs-md);
 }
+.venue-change-notice {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-sm);
+  background: var(--color-warning);
+  color: #422006;
+  font-weight: 800;
+  line-height: 1.4;
+}
 .meetup-card__actions {
   display: flex;
   flex-wrap: wrap;
