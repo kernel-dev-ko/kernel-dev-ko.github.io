@@ -20,9 +20,8 @@ permalink: 11th/
 | 19:00 | | 모임 소개 | 김준수 |
 | 19:05 | Main | [Kernel Report](main-01/) | 박병철 |
 | 19:25 | Main | [Kernel Security Report](main-02/) | 김현우 |
-| 19:45 | Lightning | [Boot-Time Storage I/O 최적화를 통한 부팅 시간 단축](lightning-01/) | 김태현 |
-| 19:50 | Lightning | [논문으로 본 AI-OS Co-design 트렌드와 우리가 고민해볼 쟁점들](lightning-02/) | 한정연 |
-| 19:55 | 휴식 | | |
+| 19:45 | Lightning | [논문으로 본 AI-OS Co-design 트렌드와 우리가 고민해볼 쟁점들](lightning-02/) | 한정연 |
+| 19:50 | 휴식 | | |
 | 20:10 | Main | [BPF Memory Allocation [REMOTE]](remote-01\) | 유형곤 |
 | 20:30 | Main | [GlusterFS in the Kernel - 서버 수정 없이 FUSE를 커널로](main-03/) | 김지현 |
 | 20:50 | Main | [The State of eBPF 2026: From Kernel Tooling to Strategic Platform](main-04/) | Bill Mulligan |
