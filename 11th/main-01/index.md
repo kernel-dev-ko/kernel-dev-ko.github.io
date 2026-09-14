@@ -7,7 +7,7 @@ layout: default
 최근 1년 수정 사항 요약 (v6.17 ~ v7.2)
 
 ## 발표 자료
-공유 예정
+<a href="Kernel_Report.pdf" download>Kernel Report</a>
 
 ## 발표자 소개
 ### 박병철
